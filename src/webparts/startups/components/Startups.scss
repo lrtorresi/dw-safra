@@ -1,0 +1,144 @@
+@import './../../../extensions/stylingExtension/components/StylingExtension/scss/variables';
+
+$gap: 0px;
+$itemsPerLine: 1;
+
+.DWStartups {
+  position: relative;
+  .DWContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    .DWItem {
+      @media only screen and (max-width: 800px) {
+        width: calc(100% / #{2} - (#{20px} * (#{2} - 1)) / #{2});
+        &:nth-child(#{2 + "n"}) {
+          margin-right: 0px;
+        }
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+
+      @media screen and (max-width: 660px) {
+        width: 100%;
+        margin-right: 0px;
+      }
+
+      &:nth-child(#{$itemsPerLine + "n"}) {
+        margin-right: 0px;
+      }
+
+      width: calc(100% / #{$itemsPerLine} - (#{$gap} * (#{$itemsPerLine} - 1)) / #{$itemsPerLine});
+      margin-right: $gap;
+      margin-bottom: 20px;
+      cursor: pointer;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      .DWContent {
+        width: 100%;
+        height: 100%;
+        .DWIconSetaDireita {
+          position: absolute;
+          right: 17px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $themePrimary;
+          font-size: 30px;
+        }
+
+        &:before {
+          content: "";
+          width: 100%;
+          height: 3px;
+          left: 0;
+          position: absolute;
+          display: block;
+          bottom: 0;
+          top: auto;
+          background: $themePrimary;
+        }
+
+        position: relative;
+        box-sizing: border-box;
+        padding: 30px;
+        display: flex;
+        overflow: hidden;
+        background: $white;
+        border-top: none;
+        display: inline-flex;
+        align-items: center;
+
+        .texts {
+          box-sizing: border-box;
+          padding: 10px 0;
+          h4,
+          h6 {
+            color: $dwText;
+            margin-bottom: 8px;
+          }
+
+          h4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: $themePrimary;
+          }
+
+          h5 {
+            color: #000000;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 15px;
+          }
+        }
+      }
+      .circle {
+        margin-right: 35px;
+        width: 100px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 3px solid #00003C;
+        height: 100%;
+        img {
+          max-width: 80px;
+        }
+        .DWIconBeneficios {
+          font-size: 35px;
+          color: $themePrimary;
+        }
+      }
+    }
+  }
+}
+
+.DWStartupsPanel {
+  .dangerousText {
+    img {
+      max-width: 100%;
+    }
+  }
+  .DWZoneTitle {
+    display: flex;
+    align-items: center;
+    .texts {
+      h4,
+      h6 {
+        color: $dwText;
+        margin-bottom: 5px;
+      }
+      h4 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        color: #00003C;
+        font-family: "MontserratRegular";
+        font-style: normal;
+      }
+    }
+  }
+}

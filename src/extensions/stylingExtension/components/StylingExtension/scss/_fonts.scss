@@ -1,0 +1,522 @@
+@mixin font-import($fontFamily, $fileName, $weight, $style) {
+  @font-face {
+    font-family: $fontFamily;
+    src: url("./fonts/" + $fileName) format("woff");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@include font-import(
+  "MontserratRegular",
+  "Montserrat-Regular.woff",
+  400,
+  normal
+);
+@include font-import("MontserratBold", "Montserrat-Bold.woff", 700, normal);
+
+%primaryFontRegular {
+  font-family: "MontserratRegular";
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+%primaryFontBold {
+  font-family: "MontserratBold";
+  font-weight: 700;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@include font-import("DWIconsSafra", "iconsafra.woff", 400, normal);
+
+%icons {
+  .DWIconLike {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e937";
+    }
+  }
+
+  .DWIconLikePreenchido {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e938";
+    }
+  }
+
+  .DWIconComment {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e908";
+    }
+  }
+
+  .DWIconHeart {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e920";
+    }
+  }
+
+  .DWIconHeartFull {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90b";
+    }
+  }
+
+  .DWIconBeneficios {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e900";
+    }
+  }
+
+  .DWIconAcessoRapido {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e935";
+    }
+  }
+
+  .DWIconAtalhosConteudo {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e936";
+    }
+  }
+
+  .DWIconBuscarPessoa {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e901";
+    }
+  }
+  .DWIconBuscar {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e902";
+    }
+  }
+  .DWIconCalendarioAlerta {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e903";
+    }
+  }
+  .DWIconCalendarioFerias {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e904";
+    }
+  }
+  .DWIconCarreira {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e905";
+    }
+  }
+  .DWIconCheck {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e933";
+    }
+  }
+
+  .DWIconCheck2 {
+    font-family: "DWIconsSafra" !important;
+    &:before {
+      content: "\e932";
+    }
+  }
+
+  .DWIconCoding {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e907";
+    }
+  }
+  .DWIconComentario {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e908";
+    }
+  }
+  .DWIconComputador {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e909";
+    }
+  }
+  .DWIconConfiguracoes {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90a";
+    }
+  }
+  .DWIconCoracao {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90b";
+    }
+  }
+  .DWIconDinheiro {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90c";
+    }
+  }
+  .DWIconDuvida {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90d";
+    }
+  }
+  .DWIconEditar {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90e";
+    }
+  }
+  .DWIconEmail {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90f";
+    }
+  }
+  .DWIconEquipe {
+    font-family: "DWIconsSafra" !important;
+    &:before {
+      content: "\e910" !important;
+    }
+  }
+  .DWIconExclamacao {
+    font-family: "DWIconsSafra" !important;
+    &:before {
+      content: "\e93e" !important;
+    }
+  }
+  .DWIconExclamacao {
+    &.expiredIcon {
+      font-family: "DWIconsSafra";
+      &:before {
+        content: "\e93e";
+      }
+    }
+  }
+  .DWIconFechar {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e912";
+    }
+  }
+  .DWIconFerias {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e913";
+    }
+  }
+  .DWIconProdutos {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e92c";
+    }
+  }
+  .DWIconHorario {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e914";
+    }
+  }
+  .DWIconIdeia {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e915";
+    }
+  }
+  .DWIconInternet {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e916";
+    }
+  }
+
+  .DWIconDestaques {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e930";
+    }
+  }
+
+  .DWIconLupaQuem {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e92d";
+    }
+  }
+
+  .DWIconNoticias {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e91c";
+    }
+  }
+  .DWIconNuvem {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e91d";
+    }
+  }
+  .DWIconPerfil {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e91e";
+    }
+  }
+  .DWIconPerfil3 {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e91f";
+    }
+  }
+  .DWIconPerfl2 {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e920";
+    }
+  }
+  .DWIconsSafraaude {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e921";
+    }
+  }
+  .DWIconsSafraistemas {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e922";
+    }
+  }
+  .DWIconsSafratream {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e935";
+    }
+  }
+  .DWIconVegetal {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e924";
+    }
+  }
+  .DWIconWorkplace {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e925";
+    }
+  }
+  .DWIconAvaliacao {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e926";
+    }
+  }
+  .DWIconArquivosAbertos {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e927";
+    }
+  }
+  .DWIconAnexar {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e928";
+    }
+  }
+  .DWIconAlerta {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e929";
+    }
+  }
+  .DWIconAdicionar {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e92a";
+    }
+  }
+  .DWIconEmailOutlook {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e90f";
+    }
+  }
+
+  // .DWIconTresPontos {
+  //   font-family: "DWIconsSafra";
+  //   &:before {
+  //     content: "\e92b";
+  //   }
+  // }
+
+  .DWIconsSafraetaEsquerda {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e93c";
+    }
+  }
+
+  .DWIconsSafraetaDireita {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e93b";
+    }
+  }
+
+  .DWIconsSafraetaRelogio {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e93a";
+    }
+  }
+
+  .DWIconsSafraetaView {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e93d";
+    }
+  }
+
+  .DWIconEquipes {
+    font-family: "DWIconsSafra" !important;
+    font-size: 18px !important;
+    &:before {
+      content: "\e939" !important;
+    }
+  }
+
+  .DWIconCalendario {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e911";
+    }
+  }
+
+  .DWIconLapis {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e934";
+    }
+  }
+
+  .DWIconSetaView {
+    font-family: "DWIconsSafra";
+    &:before {
+      content: "\e93d";
+    }
+  }
+  &.DWMinhasEquipes {
+    .DWItem {
+      .DWContent {
+        .members {
+          h6 {
+            .DWIconEquipes {
+              font-family: "DWIconsSafra" !important;
+              font-size: 18px !important;
+              &:before {
+                content: "\e939" !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.DWBarraDeProdutividade {
+    .DWContainer {
+      &.barraLateral {
+        &.withAnnouncements {
+          .DWItem {
+            &:nth-child(1) {
+              font-family: "DWIconsSafra";
+              text-align: center;
+              font-size: 20px;
+              color: $themePrimary;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+              &:before {
+                content: "\e93e";
+              }
+            }
+          }
+        }
+        .DWItem {
+          i {
+            display: none;
+          }
+
+          &[title="Favoritos"] {
+            font-family: "DWIconsSafra";
+            text-align: center;
+            font-size: 20px;
+            color: $themePrimary;
+            &:before {
+              content: "\e920";
+            }
+          }
+          &[title="Pessoas"] {
+            font-family: "DWIconsSafra";
+            text-align: center;
+            font-size: 20px;
+            color: $themePrimary;
+            &:before {
+              content: "\e91f";
+            }
+          }
+          &[title="Arquivos"] {
+            font-family: "DWIconsSafra";
+            text-align: center;
+            font-size: 20px;
+            color: $themePrimary;
+            &:before {
+              content: "\e927";
+            }
+          }
+          &[title="Calendário"] {
+            font-family: "DWIconsSafra";
+            text-align: center;
+            font-size: 20px;
+            color: $themePrimary;
+            &:before {
+              content: "\e911";
+            }
+          }
+          &[title="Emails não lidos"] {
+            font-family: "DWIconsSafra";
+            text-align: center;
+            font-size: 20px;
+            color: $themePrimary;
+            &:before {
+              content: "\e90f";
+            }
+          }
+          &[title="Administração"] {
+            font-family: "DWIconsSafra";
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            &:before {
+              content: "\e90a";
+            }
+          }
+        }
+      }
+    }
+  }
+}

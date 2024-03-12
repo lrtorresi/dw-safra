@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "bf03dd7a-a457-4a9f-9b93-c4ac9131a31f",
+  "alias": "PrateleirasWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Prateleiras" },
+    "description": { "default": "Prateleiras description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Prateleiras"
+    }
+  }]
+}

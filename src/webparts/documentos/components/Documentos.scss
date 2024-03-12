@@ -1,0 +1,373 @@
+.DocumentosContainer {
+  height: 100%;
+  width: 100%;
+
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: #00003C;
+  border-radius: 4px;
+
+  ::-webkit-scrollbar {
+    width: 4.05px;
+    margin-right: 2.63px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #D9D9D9;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #9E9E9E;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  .Box {
+    padding: 30px;
+    padding-top: 22px;
+
+    display: flex;
+    flex-direction: column;
+
+    .SelectOrder {
+      max-width: 326px;
+      min-width: 120px;
+      margin-right: 12px;
+      margin-left: 6px;
+
+      @media screen and (max-width: 768px) {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+    }
+
+    .SelectType {
+      max-width: 140px;
+      min-width: 70px;
+      margin-right: 12px;
+
+      @media screen and (max-width: 768px) {
+        max-width: 100%;
+        margin-right: 0;
+      }
+    }
+
+    select {
+      width: 100%;
+      height: 48px;
+
+      box-sizing: border-box;
+
+      padding-right: 12px;
+      padding-left: 12px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+
+      background: transparent;
+
+      border: 1px solid #D8D8D8;
+      border-radius: 4px;
+
+      option {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4F4F4F;
+      }
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 12px;
+      }
+    }
+    
+    .SearchInputContainer {
+      width: 100%;
+      height: 48px;
+      max-width: 326px;
+      min-width: 120px;
+
+      box-sizing: border-box;
+
+      padding-right: 18px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+
+      background: transparent;
+
+      border: 1px solid #D8D8D8;
+      border-radius: 4px;
+
+      input[type="search"] {
+        width: 90%;
+        height: 100%;
+        padding: 8px 16px;
+        background-color: transparent;
+        border: none;
+        border-radius: 4px;
+      }
+      
+      input[type="search"]::placeholder {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4F4F4F;
+      }
+      
+      button {
+        width: 10%;
+        height: 100%;
+    
+        background-color: transparent;
+        border: none;
+        border-radius: 4px;
+
+        cursor: pointer;
+    
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    
+      input[type="search"]:focus {
+        border: none;
+        outline: none;
+      }
+
+      @media screen and (max-width: 768px) {
+        max-width: 100%;
+      }
+    }
+
+    .Content {
+      width: 100%;
+      height: 460px;
+
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+
+      background-color: #fff;
+
+
+      .ContentBody {
+        width: 100%;
+        height: 100%;
+        
+        margin-bottom: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: #EDEDED;
+        border: 1px solid;
+        border-color: #D8D8D8;
+        border-radius: 4px;
+
+        overflow-y: scroll;
+      }
+    }
+  }
+
+  @media (max-width: 764px) { 
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    row-gap: 40px;
+  }
+}
+
+.Subheader {
+  margin: 0px;
+  padding: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .TitlePanelContainer {
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+
+  .DownloadButton {
+    max-width: 144px;
+    width: 100%;
+    height: 33px;
+
+    background-color: #000000;
+    border: none;
+
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    text-align: center;
+
+    cursor: pointer;
+  }
+}
+
+.PanelContainer {
+  width: 100%;
+  height: 100%;
+
+  padding: 0px;
+  margin: 0px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .PanelHeader {
+    width: 100%;
+    height: 49.89px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    position: relative;
+    
+    &::before {
+      content: " ";
+      position: absolute;
+      top: 0px;
+      left: -33px;
+      width: 7.71px;
+      height: 49.89px;
+      background: #00003C;
+      color: #fff;
+      z-index: 99999;
+    }
+      
+    h2 {
+      font-family: 'Segoe UI';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+
+      color: #00003C;
+
+      position: absolute;
+      top: -24px;
+      left: 0;
+    }
+
+    p {
+      font-family: 'Segoe UI';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+
+      color: #4F4F4F;
+
+      position: absolute;
+      
+      position: absolute;
+      top: 14px;
+      left: 0;
+    }
+  }
+
+  .PanelContent {
+    width: 100%;
+    height: 100%;
+
+    .IframeContent {
+      margin-top: 25px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-right: 15px;
+      padding-left: 15px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      background: #EDEDED;
+
+      border-width: 1px;
+      border-style: solid;
+      border-color: #D8D8D8;
+      border-radius: 4px;
+
+      iframe {
+        width: 100%;
+        border: none;
+      }
+
+      img {
+        margin-top: 40px;
+      }
+
+      h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+  
+        text-align: center;
+  
+        color: #00003C;
+      }
+  
+      a {
+        text-decoration: none;
+
+        .ViewButton {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+    
+          width: 120px;
+          height: 50px;
+  
+          margin-bottom: 24px;
+    
+          background: #00003C;
+          border-radius: 4px;
+    
+          font-family: 'Segoe UI';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+    
+          color: #FFFFFF;
+
+          cursor: pointer;
+
+          @media screen and (max-width: 768px) {
+            cursor: none;
+          }
+        }
+      }
+    }
+  }
+}

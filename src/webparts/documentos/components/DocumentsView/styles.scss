@@ -1,0 +1,80 @@
+.ItemsDocumentsView {
+  max-width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 18px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    width: 143px;
+    height: 158px;
+
+    margin-bottom: 16px;
+
+    padding: 0 12px 0 12px;
+    // margin-right: 9px;
+    // margin-left: 9px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+
+    .IconCard {
+      width: 100%;
+      height: 79px;
+
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .ItemName {
+      width: 100%;
+      height: 79px;
+      max-height: 79px;
+
+      font-family: 'Segoe UI';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+
+      // white-space: nowrap;
+      word-break: break-all;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      color: #4F4F4F;
+    }
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+    row-gap: 4px;
+  }
+
+  @media (max-width: 690px) and (min-width: 500px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 880px) and (min-width: 690px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media (max-width: 1090px) and (min-width: 880px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  @media (max-width: 1400px) and (min-width: 1090px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

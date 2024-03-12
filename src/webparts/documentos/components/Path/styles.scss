@@ -1,0 +1,68 @@
+.Path {
+  width: 100%;
+  
+  margin-top: 11px;
+  margin-bottom: 18px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  // overflow: scroll;
+  
+  // ::-webkit-scrollbar {
+  //   height: 4.05px;
+  // }
+  // ::-webkit-scrollbar-track {
+  //   background: #D9D9D9;
+  //   border-radius: 4px;
+  // }
+
+  // ::-webkit-scrollbar-thumb {
+  //   background: #9E9E9E;
+  //   border-radius: 4px;
+  // }
+  // ::-webkit-scrollbar-thumb:hover {
+  //   background: #555; 
+  // }
+
+  main {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+
+    img {
+      margin-right: 9.3px;
+    }
+
+    b {
+      font-family: 'Segoe UI';
+      font-style: normal;
+      font-size: 16px;
+
+      color: #4F4F4F;
+    }
+
+    p {
+      font-family: 'Segoe UI';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+
+      color: #4F4F4F;
+      
+      img {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
+  }  
+}

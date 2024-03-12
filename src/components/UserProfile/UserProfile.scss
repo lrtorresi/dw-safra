@@ -1,0 +1,60 @@
+@import "../../scss/variables";
+
+.Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6px;
+    margin-bottom: 10px;
+    .DWUserProfileImage {
+        position: initial;
+    }
+
+    .Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            color: #00003C;
+            font-size: 16px;
+            font-family: 'MontserratBold' !important;
+            line-height: 1;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            color: #00003C;
+            font-size: 16px;
+            font-family: 'MontserratRegular' !important;
+            line-height: 1;
+        }
+    }
+
+    .linkToDelve {
+        width: 154px;
+        height: 30px;
+
+        background-color: transparent;
+        border: 2px solid;
+        border-color: $themeSecondary;
+        border-radius: 16px;
+
+        color: $themeSecondary;
+
+        cursor: pointer;
+        font-weight: bold;
+
+        margin-top: 10px;
+    }
+
+    .toDelve {
+        font-size: 14px;
+        color: #7495B8  !important;
+        font-family: 'MontserratBold' !important;
+        margin-top: 10px;
+    }
+}

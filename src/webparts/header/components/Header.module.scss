@@ -1,0 +1,87 @@
+
+$navy: #000026;
+
+.container{
+  min-height: 350px;
+  background-color: $navy;
+  padding: 34px 76px 43px 78px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  .wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 280px;
+  }
+}
+.pesquisaCont{
+  display: none;
+  justify-content: center;
+  position: relative;
+  margin-top: -50px;
+  z-index: 10;
+    
+  .linksCont{
+      display: flex;
+      justify-content: center;
+      gap: 5%;
+ 
+      .littleBox{
+          
+          display: block;
+          width: 110px;
+          height: 90px;
+          border-radius: 5px;
+          background-color: white;
+          box-shadow: 0px 10px 15px -10px #a4a4a4;
+          .wrap{
+              padding: 10px;
+              display: flex;
+              flex-direction: column;
+              img{
+                  width: 40%;
+                  min-height: 25px;
+                  margin: 0px auto;
+                  padding-top: 10px;
+              }
+          }
+      }
+  } 
+}
+
+@media screen and (max-width: 460px) {
+ .container{
+   padding: unset;
+   .wrapper{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 20px;
+
+   }
+ }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .container{
+    padding: unset;
+    .wrapper{
+      // width: 100%;
+     flex-direction: column;
+     align-items: center;
+     padding: 30px 42px;
+      gap: 20px;
+      // padding-inline: 42px;
+    }
+  }
+}
+
+
+
+

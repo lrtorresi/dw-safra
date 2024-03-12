@@ -1,0 +1,151 @@
+@import "./../../../extensions/stylingExtension/components/StylingExtension/scss/variables";
+.DWWrapper.LinksRapidosSafra {
+
+    h3 {
+        @include webpartTitle("h3");
+        color: $themePrimary;
+        &::after {
+            background: $themeSecondary;
+        }
+    }
+    
+    background: transparent linear-gradient(36deg, $themeSecondary 0%, $themePrimary 100%) 0% 0% no-repeat padding-box;
+    padding: 25px;
+    border-radius: $borderRadius;
+    
+    .DWContainer {
+        display: flex;
+        flex-wrap: wrap;
+        .DWItem {
+            width: 50%;
+            &.show {
+                display: block;
+            }
+            &.hide {
+                display: none;
+            }
+            @media screen and (max-width: 660px) {
+                width: 100%;
+                &:last-child {
+                    padding-bottom: 0px;
+                }
+            }  
+
+            @media screen and (min-width: 661px) {
+                &:nth-child(odd) {
+                    padding-right: 10px;
+                }
+                
+                &:nth-last-child(-n+2) {
+                    padding-bottom: 0px;
+                }
+            }  
+
+            padding-bottom: 10px;
+            
+            .DWContent {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+        
+                img {
+                    height: 36px;
+                    width: 36px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+    h5 {
+        color: white;
+    }
+
+    h3 {
+        color: white;
+        &::after {
+            background: white;
+        }
+    }
+}
+
+.DWWrapper.DWCustom.LinksRapidosSafra {
+    background: unset;
+    padding: 0;
+
+    h3 {
+      color: $themePrimary;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .DWContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .DWItem {
+        width: calc(20% - 13px);
+        margin-right: 16px;
+        padding-bottom: 16px;
+        &:nth-child(odd) {
+          padding-right: unset;
+        }
+
+        @media screen and (max-width: 460px) {
+          width: calc(100% / 2 - 10px / 2);
+          margin-right: 10px;
+
+          &:nth-child(2n) {
+            margin-right: 0px;
+          }
+        }
+
+        @media screen and (min-width: 461px) and (max-width: 660px) {
+          width: calc(100% / 3 - 20px / 3);
+          margin-right: 10px;
+
+          &:nth-child(3n) {
+            margin-right: 0px;
+          }
+        }
+
+        @media screen and (min-width: 661px) {
+          width: calc(20% - 13px);
+          margin-right: 16px;
+
+          &:nth-child(5n) {
+            margin-right: 0px;
+          }
+        }
+
+        .DWContent {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 20px 10px;
+          text-align: center;
+          background-color: $white;
+          border-radius: $borderRadius;
+          padding: 10px;
+          min-height: 130px;
+          box-shadow: 0px 3px 3px $dwShadow;
+
+          img {
+            background: $themePrimary;
+            margin-right: 0;
+            padding: 5px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+          }
+          h5 {
+            color: $dwText;
+            font-size: 12px;
+            line-height: 150%;
+          }
+        }
+      }
+    }
+}

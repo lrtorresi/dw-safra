@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e365f5b0-2413-49e0-9664-3ca1ff328d8e",
+  "alias": "DocumentosWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Documentos" },
+    "description": { "default": "Documentos description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Documentos"
+    }
+  }]
+}

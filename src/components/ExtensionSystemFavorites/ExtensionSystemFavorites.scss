@@ -1,0 +1,26 @@
+.DWSystemFavoritesComponent {
+    .header {
+        display: flex;
+        h4 {
+            color: #008542;
+        }
+        .penIcon {
+            margin-left: 15px;
+        }
+    }
+    .systemFavoritesContainer {
+        display: flex;
+        flex-direction: column;
+        .systemFavoriteItem {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 10px 0 10px;
+            .title {
+                text-align: left;
+                margin: 0 auto 0 15px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}

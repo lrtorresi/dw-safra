@@ -1,0 +1,47 @@
+@import "../../scss/variables";
+
+.DWWrapper {
+    .DWAnnouncementsComponentNewBar {
+        margin: 0 -20px 0 -20px;
+
+        width: initial;
+        display: flex;
+        flex-direction: column;
+
+        .DWItem {
+            background-color: #00003C;
+            margin-left: -20px;
+            margin-right: -20px;
+            padding: 45px 30px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            box-shadow: initial;
+            border-radius: 0;
+
+            .DWContainer {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                .DWLeft {
+                    margin-top: 2px;
+                    margin-right: 10px;
+                    i {
+                        font-size: 20px;
+                    }
+                    .DWIconExclamacao {
+                        font-size: 26px;
+                    }
+                }
+
+                .DWRight {
+                    h3,
+                    p {
+                        margin-bottom: 10px;
+                        color: #eceff3;
+                    }
+                }
+            }
+        }
+    }
+}

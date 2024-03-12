@@ -1,0 +1,838 @@
+{
+    "Erro": "",
+    "Pilares": [
+        {
+            "idPilar": 3,
+            "Nome": "Benefícios & Qualidade de Vida",
+            "Ordem": 1
+        },
+        {
+            "idPilar": 4,
+            "Nome": "Desenvolvimento & Carreira",
+            "Ordem": 2
+        },
+        {
+            "idPilar": 5,
+            "Nome": "Ferramentas",
+            "Ordem": 3
+        },
+        {
+            "idPilar": 6,
+            "Nome": "Cidadania & ESG",
+            "Ordem": 4
+        }
+    ],
+    "Banners": [
+        {
+            "IdBanner": 36,
+            "Titulo": "Sou Safra",
+            "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+            "RGBTitulo": "",
+            "Descricao": "O jeito Safra de cuidar de você e de sua família.",
+            "RGBDescricao": "",
+            "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=36&ccURL=link",
+            "AbrirNovaGuia": false,
+            "Ordem": 1,
+            "TextoBotaoAcao": "Conheça"
+        },
+        {
+            "IdBanner": 36,
+            "Titulo": "Sou Safra",
+            "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+            "RGBTitulo": "",
+            "Descricao": "O jeito Safra de cuidar de você e de sua família.",
+            "RGBDescricao": "",
+            "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=36&ccURL=link",
+            "AbrirNovaGuia": false,
+            "Ordem": 1,
+            "TextoBotaoAcao": "Conheça"
+        }
+    ],
+    "Prateleira": [
+        {
+            "Prateleira": "",
+            "FiqueAtento": true,
+            "Ordem": "",
+            "Cards": [
+                {
+                    "idCard": 2,
+                    "Titulo": "Prevenção à Covid",
+                    "Descricao": "Preencha o questionário de mapeamento",
+                    "TextoOnHover": "Atue para prevenir a disseminação do vírus adorando as medidas de proteção em seu dia de trabalho com colegas e clientes",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=2&ccURL=forms%2Fform%2Easp%3FccFormulario%3D202007%2DCovid19%2DDiarioV2%26",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Pesquisa%20Covid.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+                    "PilarSouSafra": [
+                        1
+                    ],
+                    "Favorito": false,
+                    "Notificacao": "0"
+                }
+            ]
+        },
+        {
+            "Prateleira": "Saúde",
+            "FiqueAtento": true,
+            "Ordem": 1,
+            "Cards": [
+                {
+                    "idCard": 1,
+                    "Titulo": "Espaço Saúde",
+                    "Descricao": "O mais alto padrão de excelência médica",
+                    "TextoOnHover": "Ambulatório na Matriz para acompanhamento e pronto atendimento aos colaboradores (independente do plano de saúde e sem custo)",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "Covid, Corona, virus",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=1&ccURL=http%3A%2F%2Firh%2Esafra%2Ecom%2Ebr%2Fmis%2Fmodulos%2Flogin%2Easp%3FTela%3D%2Fmis%2Fhome%2Easp%3FOrigem%3DMU%26Mobile%3DFalse",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Espa%C3%A7o%20Sa%C3%BAde.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 2,
+                    "Titulo": "Prevenção à Covid",
+                    "Descricao": "Preencha o questionário de mapeamento",
+                    "TextoOnHover": "Atue para prevenir a disseminação do vírus adorando as medidas de proteção em seu dia de trabalho com colegas e clientes",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=2&ccURL=forms%2Fform%2Easp%3FccFormulario%3D202007%2DCovid19%2DDiarioV2%26",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Pesquisa%20Covid.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 3,
+                    "Titulo": "Telemedicina Einstein",
+                    "Descricao": "Consultas onde estiver e quando quiser",
+                    "TextoOnHover": "Telemedicina com métodos do Einstein para colaboradores e dependentes, de forma gratuita e pelo app Safra Pessoas. Acesso 24 / 7, independente do plano de saúde.",
+                    "Tamanho": 1,
+                    "Ordem": 3,
+                    "PalavrasChave": "",
+                    "URL": "link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Telemedicina%20Einstein.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": true,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "5",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Bem Estar",
+            "FiqueAtento": false,
+            "Ordem": 5,
+            "Cards": [
+                {
+                    "idCard": 4,
+                    "Titulo": "Programa Bem Estar",
+                    "Descricao": "Apoio jurídico, financeiro, psicológico e social.",
+                    "TextoOnHover": "Atendimento por especialistas para colaboradores e dependentes, de forma gratuita e confidencial. Pelo App Safra Pessoas ou 0800 282 6666, 24h, 7 dias por semana.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "forms/form.asp?",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Programa%20Bem%20Estar.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": true,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 5,
+                    "Titulo": "J. Safra Clube",
+                    "Descricao": "Associação de funcionários do grupo Safra.",
+                    "TextoOnHover": "Atividades e benefícios exclusivos como convênios, eventos e sorteios, mediante associação e mensalidade.",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/J%20Safra%20Clube.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": true,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": true,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 6,
+                    "Titulo": "Gympass",
+                    "Descricao": "Academias, estúdios e aulas com personal.",
+                    "TextoOnHover": "Assinatura mensal eletiva para atividades físicas em todo Brasil, com desconto em folha e sem taxas de cancelamento.",
+                    "Tamanho": 1,
+                    "Ordem": 3,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=6&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Gympass.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 7,
+                    "Titulo": "Agendamento de férias",
+                    "Descricao": "Atenção: antecedências mínima de 35 dias.",
+                    "TextoOnHover": "Fique de olho nas regras, alinhe com o seu gestor e programe as suas férias com antecedência.",
+                    "Tamanho": 1,
+                    "Ordem": 4,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=7&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/F%C3%A9rias.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 8,
+                    "Titulo": "Jornada Flexível",
+                    "Descricao": "Mais autonomia para você!",
+                    "TextoOnHover": "Início e término da jornada com liberação do acesso ao sistema atrelada ao registro do ponto e não a horários fixos.Alinhe com o seu gestor.",
+                    "Tamanho": 1,
+                    "Ordem": 5,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=8&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Jornada%20Flex%C3%ADvel.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": true,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Benefícios",
+            "FiqueAtento": false,
+            "Ordem": 9,
+            "Cards": [
+                {
+                    "idCard": 9,
+                    "Titulo": "Mapa completo de benefícios",
+                    "Descricao": "Confira tudo que está a sua disposição.",
+                    "TextoOnHover": "Uma gama de benefícios completos e adequados para atender as suas necessidades com as melhores opções do mercado.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=9&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Mapa%20Completo%20de%20Benef%C3%ADcios.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Benefícios Financeiros",
+            "FiqueAtento": false,
+            "Ordem": 12,
+            "Cards": [
+                {
+                    "idCard": 10,
+                    "Titulo": "Financiamento imobiliário",
+                    "Descricao": "Condições exclusivas para você.",
+                    "TextoOnHover": "Financie seu imóvel residencial ou de veraneio, novo ou usado, em até 30 anos com taxas diferenciadas e descontos especiais.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=10&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Financiamento%20imobili%C3%A1rio.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 11,
+                    "Titulo": "Venda Veículos",
+                    "Descricao": "Conheça a plataforma Cars2You",
+                    "TextoOnHover": "Automóveis com pouco uso, a preços acessíveis e condições especiais, além de garantia de 1 ano para motor e câmbio.",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=11&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Venda%20de%20Ve%C3%ADculos.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 12,
+                    "Titulo": "Saque FGTS",
+                    "Descricao": "Antecipe parte do saldo disponível nas contas",
+                    "TextoOnHover": "Crédito vinculado à opção de Saque Aniversário com taxa especial, pagamento anual e contratação pelo Whatsapp",
+                    "Tamanho": 1,
+                    "Ordem": 3,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=12&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Saquel%20FGTS.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 13,
+                    "Titulo": "Consignado",
+                    "Descricao": "Linha de crédito com taxas especiais",
+                    "TextoOnHover": "Para aquisição de bens e organização das finanças com desconto em folha e possibilidade de seguro prestamista",
+                    "Tamanho": 1,
+                    "Ordem": 4,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=13&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Consignado.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "J Safra Academy",
+            "FiqueAtento": false,
+            "Ordem": 2,
+            "Cards": [
+                {
+                    "idCard": 16,
+                    "Titulo": "Liderança",
+                    "Descricao": "Somos líderes, em todos os níveis",
+                    "TextoOnHover": "Treinamentos, trilhas on-line, programas, entre outros, para apoiar nossos líderes à medida que evoluem em sua jornada no Safra.",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=16&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Lideran%C3%A7a.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        4
+                    ]
+                },
+                {
+                    "idCard": 38,
+                    "Titulo": "Meu Desenvolvimento",
+                    "Descricao": "O ponto de partida para seu desenvolvimento.",
+                    "TextoOnHover": "A J.Safra Academy consolida todas as ações de educação e desenvolvimento voltadas para os nossos funcionários e tem como objetivo estimular o aprendizado e a busca por renovação de repertório e conhecimento.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=38&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Meu%20Desenvolvimento.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        4
+                    ]
+                },
+                {
+                    "idCard": 39,
+                    "Titulo": "Inovação Tech",
+                    "Descricao": "Atração e formação de novos talentos tech.",
+                    "TextoOnHover": "Atração e formação de novos talentos tech (Laboratória, Technee e SP Tech) e desenvolvimento dos profissionais por meio de workshops, conteúdos direcionados e plataforma especializada. Acompanhe o Tech Talk para saber mais sobre as iniciativas!",
+                    "Tamanho": 1,
+                    "Ordem": 3,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=39&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Inova%C3%A7%C3%A3o%20Tech.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        4
+                    ]
+                },
+                {
+                    "idCard": 41,
+                    "Titulo": "Safra ID",
+                    "Descricao": "Confira na J Safra Academy essa metodologia baseada em neurociência.",
+                    "TextoOnHover": "A partir do perfil de decisão do cliente, busca o relacionamento com maior conexão e assertividade. É reconhecido pelo Programa de Educação Continuada da Planejar e tem versões para gerentes comerciais e liderança.",
+                    "Tamanho": 1,
+                    "Ordem": 4,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=41&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Safra%20ID.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Carreira",
+            "FiqueAtento": false,
+            "Ordem": 6,
+            "Cards": [
+                {
+                    "idCard": 18,
+                    "Titulo": "Patrocínio Acadêmico",
+                    "Descricao": "Programa anual de capacitação contínua",
+                    "TextoOnHover": "Subsídios de desenvolvimento para formação acadêmica (Graduação, Pós e MBA, Mestrado e Doutorado) agregando valor para a organização e ao plano de desenvolvimento da sua carreira!",
+                    "Tamanho": 1,
+                    "Ordem": 3,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=18&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Forma%C3%A7%C3%A3o%20Acad%C3%AAmica.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        4
+                    ]
+                },
+                {
+                    "idCard": 19,
+                    "Titulo": "Certificações",
+                    "Descricao": "Programa de incentivo para certificações",
+                    "TextoOnHover": "Programa de incentivo para profissionais elegíveis e subsídio para cursos de curta duração, participação em eventos, congressos etc.",
+                    "Tamanho": 1,
+                    "Ordem": 4,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=19&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Certifica%C3%A7%C3%B5es.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        3
+                    ]
+                },
+                {
+                    "idCard": 27,
+                    "Titulo": "Ações de impacto social",
+                    "Descricao": "Conheça as instituições que apoiamos",
+                    "TextoOnHover": "Com os colaboradores, contribuímos com instituições que são referência em campanhas especiais como: agasalho, brinquedos e alimentos.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=27&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/A%C3%A7%C3%B5es%20de%20impacto%20social.png",
+                    "RGBBgIcone": "#d54d63",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        6
+                    ]
+                },
+                {
+                    "idCard": 42,
+                    "Titulo": "Jovens talentos",
+                    "Descricao": "Confira nossos programas de atração e formação",
+                    "TextoOnHover": "Visando ampliar nossa base de talentos, o Safra investe em programas de atração e formação como TOP Gestor, Jovem Aprendiz, Estágio e Summer Job. Proporcionando ações on the job e treinamentos específicos.",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=42&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Jovens%20Talentos.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Performance",
+            "FiqueAtento": false,
+            "Ordem": 10,
+            "Cards": [
+                {
+                    "idCard": 21,
+                    "Titulo": "Ciclo de desenvolvimento",
+                    "Descricao": "Você protagonista da sua carreira",
+                    "TextoOnHover": "Um instrumento de gestão que norteia gestores e funcionários para a busca da entrega dos objetivos estratégicos e alinhamento às atitudes Safra.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "Ciclo;Desenvolvimento;",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=21&ccURL=obj%2FonePage%2Easp",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Ciclo%20de%20Desenvolvimento.png",
+                    "RGBBgIcone": "#3ca6d6",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Cidadania",
+            "FiqueAtento": false,
+            "Ordem": 3,
+            "Cards": [
+                {
+                    "idCard": 26,
+                    "Titulo": "Plataforma de estímulo a doações",
+                    "Descricao": "Você pode doar parte do seu IR devido.",
+                    "TextoOnHover": "Consulte a cartilha para fazer uma doação dedutível para iniciativas apoiadas pelo Safra e que visam o bem-estar da comunidade.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=26&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Plataforma%20de%20est%C3%ADmulo%20a%20doa%C3%A7%C3%B5es.png",
+                    "RGBBgIcone": "#d54d63",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "ESG",
+            "FiqueAtento": false,
+            "Ordem": 7,
+            "Cards": [
+                {
+                    "idCard": 28,
+                    "Titulo": "Diversidade e Inclusão",
+                    "Descricao": "Seja um embaixador",
+                    "TextoOnHover": "Seja embaixador e conheça mais sobre os temas de diversidade na Trilha ESG Diversidade, lives e Política de Direitos Humanos.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=28&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Comit%C3%AA%20de%20Diversidade%20e%20Inclus%C3%A3o.png",
+                    "RGBBgIcone": "#d54d63",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        6
+                    ]
+                },
+                {
+                    "idCard": 29,
+                    "Titulo": "Saúde Financeira",
+                    "Descricao": "Promovemos o uso consciente do dinheiro.",
+                    "TextoOnHover": "Plataformas sobre educação financeira, além de conteúdos sobre investimentos disponibilizados na Central de Conteúdos e O Especialista.",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=29&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Sa%C3%BAde%20Financeira.png",
+                    "RGBBgIcone": "#44a45f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Dia a dia",
+            "FiqueAtento": false,
+            "Ordem": 4,
+            "Cards": [
+                {
+                    "idCard": 20,
+                    "Titulo": "Agende almoço com cliente",
+                    "Descricao": "Reserve seu horário no restaurante",
+                    "TextoOnHover": "Convide os seus clientes e recepcione-os no nosso restaurante que fica no prédio da Matriz para um almoço de negócios.",
+                    "Tamanho": 1,
+                    "Ordem": 3,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=20&ccURL=http%3A%2F%2Firh%2Esafra%2Ecom%2Ebr%2Fmis%2Fmodulos%2Flogin%2Easp%3FTela%3D%2Fmis%2Fhome%2Easp%3FOrigem%3DMU%26U%3DXXXXXXXX%26cvLauncher%3D301%26",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Agende%20almo%C3%A7o%20com%20cliente.png",
+                    "RGBBgIcone": "#eaa63f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        5
+                    ]
+                },
+                {
+                    "idCard": 32,
+                    "Titulo": "Ponto eletrônico",
+                    "Descricao": "Acesse o sistema diretamente por aqui.",
+                    "TextoOnHover": "Se elegível à marcação de jornada, lembre-se de fazer seus registros de início e fim de jornada, além de saída e entrada de almoço.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=32&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Ponto%20eletr%C3%B4nico.png",
+                    "RGBBgIcone": "#eaa63f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        5
+                    ]
+                },
+                {
+                    "idCard": 33,
+                    "Titulo": "Reembolso de despesas",
+                    "Descricao": "Reembolso intuitivo e digital.",
+                    "TextoOnHover": "Solicite o adiantamento ou reembolso de suas despesas pela nova plataforma ou pelo App Sou Safra.",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=33&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Reembolso%20de%20despesas.png",
+                    "RGBBgIcone": "#eaa63f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Facilidades",
+            "FiqueAtento": false,
+            "Ordem": 8,
+            "Cards": [
+                {
+                    "idCard": 22,
+                    "Titulo": "Solicitação de acesso remoto",
+                    "Descricao": "Trabalho remoto.",
+                    "TextoOnHover": "Preencha suas informações para solicitar seu acesso remoto e trabalhar onde quiser.",
+                    "Tamanho": 1,
+                    "Ordem": 3,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=22&ccURL=http%3A%2F%2Firh%2Esafra%2Ecom%2Ebr%2Fmis%2Fmodulos%2Flogin%2Easp%3FTela%3D%2Fmis%2Fhome%2Easp%3FOrigem%3DMU%26U%3DXXXXXXXX%26cvLauncher%3D252%26",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/Solicita%C3%A7%C3%A3o%20de%20acesso%20remoto.png",
+                    "RGBBgIcone": "#eaa63f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        5
+                    ]
+                },
+                {
+                    "idCard": 34,
+                    "Titulo": "Dúvidas frequentes",
+                    "Descricao": "Tire suas dúvidas de forma simples e rápida.",
+                    "TextoOnHover": "Solução que reúne informações sobre as políticas de RH, formulários de adesão de benefícios e nossos canais de atendimento",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=34&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/D%C3%BAvidas%20Frequentes.png",
+                    "RGBBgIcone": "#eaa63f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        5
+                    ]
+                },
+                {
+                    "idCard": 35,
+                    "Titulo": "App Manuais de Instalação",
+                    "Descricao": "Todas as facilidades na palma da sua mão.",
+                    "TextoOnHover": "O aplicativo Sou Safra foi feito para você! Ele é uma importante ferramenta para facilitar o seu dia a dia com os serviços de RH, onde quer que você esteja.",
+                    "Tamanho": 1,
+                    "Ordem": 2,
+                    "PalavrasChave": "",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=35&ccURL=link",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/App%20Manuais%20de%20Instala%C3%A7%C3%A3o.png",
+                    "RGBBgIcone": "#eaa63f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "Prateleira": "Minha Equipe",
+            "FiqueAtento": false,
+            "Ordem": 11,
+            "Cards": [
+                {
+                    "idCard": 23,
+                    "Titulo": "RH Report",
+                    "Descricao": "Acompanhe a sua equipe.",
+                    "TextoOnHover": "Tenha acesso a relatório, dashboards e informações sobre o organograma, férias, jornada, certificações e muitos mais.",
+                    "Tamanho": 1,
+                    "Ordem": 1,
+                    "PalavrasChave": "Informações;Gerenciais;Equipe;",
+                    "URL": "https://irh.safra.com.br/mis/lau/url.asp?ccUsuario=433518&cvIdMenu=23&ccURL=dsh%2FminiDash%2Easp",
+                    "TextoBotaoAcao": "",
+                    "URLIcone": "https://b0422.sharepoint.com/sites/SouSafra-institucional/Documentos%20Compartilhados/Recursos%20Humanos/irh/launch%20page/%C3%8Dcones%20Brancos/RH%20Report.png",
+                    "RGBBgIcone": "#eaa63f",
+                    "AbrirNovaGuia": false,
+                                    "Imagem":"http://s2.glbimg.com/h3Duok3KWVA8yaIOzZZIESkNLC4DKPsVVGWWhNMHhpNIoz-HdGixxa_8qOZvMp3w/e.glbimg.com/og/ed/f/original/2013/08/02/imagem_para_sexta_51.jpg",
+
+                    "Favorito": false,
+                    "Notificacao": "-1",
+                    "PilarSouSafra": [
+                        5
+                    ]
+                }
+            ]
+        }
+    ]
+}

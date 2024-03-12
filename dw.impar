@@ -1,0 +1,80 @@
+{
+    "webparts": [
+        "89d167d3-8ae9-44ba-965f-857e2722d863",
+        "73ae6781-efb5-4e56-bc94-8b678efc488c",
+        "72bd94af-22ee-4376-bb6f-aec3588c0942",
+        "f79c6f05-1650-4f44-85e3-907819eda369",
+        "370bfd8f-7881-4e75-805b-628e1025b4ac",
+        "3c89e347-3803-4885-b3f5-1f0ce2ba3d0e",
+        "67708215-4407-4d0d-8b18-07319b7a9c72",
+        "1cf3bdfc-b4df-4652-a521-fbd74fddee67",
+        "5c1242c6-14b3-4603-af22-b6a75224b91d",
+        "15ed2a2d-acb5-417d-bab9-8d638853fe2b",
+        "dbdec04f-2d56-4c15-bafa-3e71339389cf",
+        "02e437dc-d0bc-40d7-9f85-81dfba5ec0c3",
+        "bc994125-93f2-4429-a1f8-b56c51676d19",
+        "d105b272-489c-4951-abb0-4449f7fd811c",
+        "4eea2417-8ea5-4f09-9454-51d4f3b57dd5",
+        "a77dde54-3d28-43c7-993c-1c98cfa902ca",
+        "9a204814-35b3-4ab4-85a8-9ae2d4032baf",
+        "a05b2bc3-2483-459d-afd0-af173c3e888e",
+        "4b01a26a-bf67-4eac-bfe2-08c95a9166ef",
+        "33135a5d-a708-44af-a22e-7d901ca30537",
+        "6f6e48e6-c7fe-400b-b494-bf3180fd3a95",
+        "2525c445-d765-4d33-bec3-3ece34392fb2",
+        "987722d4-27e4-44e6-9ad2-040f9d35f348",
+        "88787038-2562-432d-afee-4205f0c9562d",
+        "79b17d1b-8d9f-4e2f-92c5-79b49ffb99cf",
+        "437d8b0e-36f2-4506-83fe-9d69dfe5c581",
+        "85d15f56-e2b8-4e24-b5c1-32ce9c968627",
+        "3aeb91e2-dcde-47e4-8b40-0086b2634659",
+        "97a163ea-3f5b-4c57-91b8-a1fe4ff07a5b",
+        "da21c00b-ae91-4dc2-8d5b-859ed39c0760",
+        "608634bd-e5ed-4293-816c-fe5818e1e40d",
+        "0cfe59df-4e4d-45e0-99e7-00e31c69c7af",
+        "9dbb3da3-3e3b-4d4e-b63a-c172d8389aab",
+        "f4949dec-b9be-4043-b464-6b314dbf9806",
+        "02d80490-dacb-4fe5-b6ac-8f3c337b0a2b",
+        "a952e664-4d48-4b5b-b06e-56d3cc7b7941",
+        "18c0c63f-2fb6-4496-8577-76c673795adf",
+        "27878cdb-62f5-4a08-be9d-096799062fdf",
+        "d08705c4-32a3-4377-bf56-4f0e823de59a",
+        "83afc235-96e7-49ce-b25a-059c199dbd13"
+    ],
+    "extensionComponents":  {
+        "Announcements": {},
+        "AdminPage": {},
+        "ExtensionFavorites" : {
+            "title": "Favoritos"
+        },
+        "Tasks" : {
+            "title": "Tarefas",
+            "top": 3,
+            "showCTA": true
+        },
+        "Emails": {
+            "title": "Emails não lidos",
+            "top": 3,
+            "showCTA": true
+        },
+        "Calendar": {
+            "title": "Calendário",
+            "top": 3,
+            "showCTA": true
+        },
+        "Teams": {
+            "title": "Times",
+            "top": 7,
+            "showCTA": true
+        },
+        "Files": {
+            "title": "Arquivos",
+            "top": 3,
+            "showCTA": true
+        },
+        "People" : {
+            "title": "Pessoas",
+            "top": 7
+        }
+    }
+}

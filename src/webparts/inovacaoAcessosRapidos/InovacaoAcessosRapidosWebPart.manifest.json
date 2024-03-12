@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "9a540384-6a07-4ca3-bb42-9ddfbbd05f00",
+  "alias": "InovacaoAcessosRapidosWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Inovação Acessos Rapidos" },
+    "description": { "default": "Inovação Acessos Rapidos description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Inovação Acessos Rapidos"
+    }
+  }]
+}

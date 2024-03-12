@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "15b211f0-3cfe-4f1b-84da-21054c98902f",
+  "alias": "EventosInovacaoWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "Eventos Inovacao" },
+      "description": { "default": "Eventos Inovacao description" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "seeAllButtonText": "Ver todos"
+      }
+    }
+  ]
+}

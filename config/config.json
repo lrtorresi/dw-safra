@@ -1,0 +1,162 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "styling-extension-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/stylingExtension/StylingExtensionApplicationCustomizer.js",
+          "manifest": "./src/extensions/stylingExtension/StylingExtensionApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "startups-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/startups/StartupsWebPart.js",
+          "manifest": "./src/webparts/startups/StartupsWebPart.manifest.json"
+        }
+      ]
+    },
+    "eventos-inovacao-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventosInovacao/EventosInovacaoWebPart.js",
+          "manifest": "./src/webparts/eventosInovacao/EventosInovacaoWebPart.manifest.json"
+        }
+      ]
+    },
+    "cases-sucesso-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/casesSucesso/CasesSucessoWebPart.js",
+          "manifest": "./src/webparts/casesSucesso/CasesSucessoWebPart.manifest.json"
+        }
+      ]
+    },
+    "inovacao-banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/inovacaoBanner/InovacaoBannerWebPart.js",
+          "manifest": "./src/webparts/inovacaoBanner/InovacaoBannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "inovacao-acessos-rapidos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/inovacaoAcessosRapidos/InovacaoAcessosRapidosWebPart.js",
+          "manifest": "./src/webparts/inovacaoAcessosRapidos/InovacaoAcessosRapidosWebPart.manifest.json"
+        }
+      ]
+    },
+    "inovacao-banner-secundario-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/inovacaoBannerSecundario/InovacaoBannerSecundarioWebPart.js",
+          "manifest": "./src/webparts/inovacaoBannerSecundario/InovacaoBannerSecundarioWebPart.manifest.json"
+        }
+      ]
+    },
+    "especialista-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/especialista/EspecialistaWebPart.js",
+          "manifest": "./src/webparts/especialista/EspecialistaWebPart.manifest.json"
+        }
+      ]
+    },
+    "prateleiras-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/prateleiras/PrateleirasWebPart.js",
+          "manifest": "./src/webparts/prateleiras/PrateleirasWebPart.manifest.json"
+        }
+      ]
+    },
+    "curriculo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/curriculo/CurriculoWebPart.js",
+          "manifest": "./src/webparts/curriculo/CurriculoWebPart.manifest.json"
+        }
+      ]
+    },
+    "notificacoes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/notificacoes/NotificacoesWebPart.js",
+          "manifest": "./src/webparts/notificacoes/NotificacoesWebPart.manifest.json"
+        }
+      ]
+    },
+    "portal-irh-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/portalIrh/PortalIrhWebPart.js",
+          "manifest": "./src/webparts/portalIrh/PortalIrhWebPart.manifest.json"
+        }
+      ]
+    },
+    "header-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/header/HeaderWebPart.js",
+          "manifest": "./src/webparts/header/HeaderWebPart.manifest.json"
+        }
+      ]
+    },
+    "banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/banner/BannerWebPart.js",
+          "manifest": "./src/webparts/banner/BannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "blip-chat-safra-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/blipChatSafra/BlipChatSafraWebPart.js",
+          "manifest": "./src/webparts/blipChatSafra/BlipChatSafraWebPart.manifest.json"
+        }
+      ]
+    },
+    "links-rapidos-safra-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/linksRapidosSafra/LinksRapidosSafraWebPart.js",
+          "manifest": "./src/webparts/linksRapidosSafra/LinksRapidosSafraWebPart.manifest.json"
+        }
+      ]
+    },
+    "documentos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentos/DocumentosWebPart.js",
+          "manifest": "./src/webparts/documentos/DocumentosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StylingExtensionApplicationCustomizerStrings": "lib/extensions/stylingExtension/loc/{locale}.js",
+    "StartupsWebPartStrings": "lib/webparts/startups/loc/{locale}.js",
+    "EventosInovacaoWebPartStrings": "lib/webparts/eventosInovacao/loc/{locale}.js",
+    "CasesSucessoWebPartStrings": "lib/webparts/casesSucesso/loc/{locale}.js",
+    "InovacaoBannerWebPartStrings": "lib/webparts/inovacaoBanner/loc/{locale}.js",
+    "InovacaoAcessosRapidosWebPartStrings": "lib/webparts/inovacaoAcessosRapidos/loc/{locale}.js",
+    "InovacaoBannerSecundarioWebPartStrings": "lib/webparts/inovacaoBannerSecundario/loc/{locale}.js",
+    "EspecialistaWebPartStrings": "lib/webparts/especialista/loc/{locale}.js",
+    "PrateleirasWebPartStrings": "lib/webparts/prateleiras/loc/{locale}.js",
+    "CurriculoWebPartStrings": "lib/webparts/curriculo/loc/{locale}.js",
+    "NotificacoesWebPartStrings": "lib/webparts/notificacoes/loc/{locale}.js",
+    "PortalIrhWebPartStrings": "lib/webparts/portalIrh/loc/{locale}.js",
+    "HeaderWebPartStrings": "lib/webparts/header/loc/{locale}.js",
+    "BannerWebPartStrings": "lib/webparts/banner/loc/{locale}.js",
+    "BlipChatSafraWebPartStrings": "lib/webparts/blipChatSafra/loc/{locale}.js",
+    "LinksRapidosSafraWebPartStrings": "lib/webparts/linksRapidosSafra/loc/{locale}.js",
+    "DocumentosWebPartStrings": "lib/webparts/documentos/loc/{locale}.js"
+  }
+}

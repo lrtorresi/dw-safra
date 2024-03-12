@@ -1,0 +1,74 @@
+@import "./../../../extensions/stylingExtension/components/StylingExtension/scss/variables";
+
+.DWWrapper.DWInovacao {
+    h3 {
+        @include webpartTitle("h3");
+        color: $themePrimary;
+        &::after {
+            background: $themeSecondary;
+        }
+    }
+
+    background: transparent linear-gradient(36deg, $themeSecondary 0%, $themePrimary 100%) 0% 0% no-repeat padding-box;
+    padding: 25px;
+    border-radius: $borderRadius;
+
+    .DWContainer {
+        display: flex;
+        flex-wrap: wrap;
+        .DWItem {
+            width: 50%;
+            @media screen and (max-width: 660px) {
+                width: 100%;
+                &:last-child {
+                    padding-bottom: 0px;
+                }
+            }
+
+            @media screen and (min-width: 661px) {
+                &:nth-child(odd) {
+                    padding-right: 10px;
+                }
+
+                &:nth-last-child(-n + 2) {
+                    padding-bottom: 0px;
+                }
+            }
+
+            padding-bottom: 10px;
+
+            .DWContent {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+
+                .img {
+                    height: 55px;
+                    width: 55px;
+                    background: $themePrimary;
+                    margin-right: 0;
+                    padding: 5px;
+                    margin-bottom: 15px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        max-width: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    h5 {
+        color: white;
+    }
+
+    h3 {
+        color: white;
+        &::after {
+            background: white;
+        }
+    }
+}

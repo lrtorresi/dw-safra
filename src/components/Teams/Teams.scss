@@ -1,0 +1,50 @@
+@import "../../scss/variables";
+.DWWrapper {
+  .DWTeamsComponent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .teamsContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 12px;
+
+      .teamItem {
+        text-decoration: none;
+        &:last-child {
+          margin-right: 0px;
+        }
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .teamsLink {
+      align-self: end;
+
+      button {
+        width: 154px;
+        height: 30px;
+
+        background-color: transparent;
+        border: 2px solid;
+        border-color: $themeSecondary;
+        border-radius: 16px;
+
+        color: $themeSecondary;
+
+        cursor: pointer;
+        font-weight: bold;
+
+        margin-top: 10px;
+      }
+    }
+  }
+}

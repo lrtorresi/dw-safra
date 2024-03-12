@@ -1,0 +1,152 @@
+.DWWrapper.DWEspecialista {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 23px 30px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  .titleZone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom:20px;
+    h3 {
+      font-weight: bold;
+      color: #00003C;
+    }
+    span.filterText {
+      font-size: 12px;
+      color: #4F4F4F;
+      margin-right: 10px;
+    }
+    .filter {
+      display: none;
+      align-items: center;
+    }
+  }
+  .linkButton {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+    justify-content: flex-end;
+    .DWIconAdicionar {
+      margin-right: 10px;
+      color: #00003c;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    h5 {
+      color: #00003c;
+    }
+  }
+  
+  .DWContainer {
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 23px;
+    .DWItem {
+      margin-bottom: 40px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      span {
+        display: block;
+        font-size: 12px;
+        color: #4f4f4f;
+      }
+      a {
+        display: block;
+        font-weight: bold;
+        font-size: 16px;
+        color: #00003C;
+        margin: 7px 0;
+        cursor: pointer;
+        font-family: "MontserratBold";
+      }
+      p {
+        font-size: 12px;
+        color: #4f4f4f;
+      }
+    }
+  }
+  .dropdown {
+    width: 169px;
+    background-color: white;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    &.open {
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+  
+  .dropdown-header {
+    padding: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: "MontserratBold";
+    color: #1A1A1A;
+  }
+  
+  .dropdown-body {
+    border-top: 1px solid #E5E8EC;
+    display: none;
+    position: absolute;
+    background: #fff;
+    max-height: 200px;
+    overflow: auto;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 169px;
+    left: -1px;
+  }
+  
+  .dropdown-body.open {
+    display: block;
+    z-index: 999;
+  }
+  
+  .dropdown-item {
+    font-size: 12px;
+    color: #4F4F4F;
+    box-sizing: border-box;
+    padding: 12px;
+  }
+  
+  .dropdown-item:hover {
+    cursor: pointer;
+  }
+  
+  .dropdown-item-dot {
+    opacity: 0;
+    color: #91A5BE;
+    transition: all .2s ease-in-out;
+  }
+  
+  .dropdown-item-dot.selected {
+    opacity: 1;
+  }
+  
+  .DWIconSetaDireita {
+    font-size: 13px;
+    color: #00003C;
+    transform: rotate(90deg);
+    transition: all .2s ease-in-out;
+  }
+  
+  .DWIconSetaDireita.open {
+    transform: rotate(-90deg);
+  }
+}
+

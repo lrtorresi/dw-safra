@@ -1,0 +1,72 @@
+$themePrimary: "[theme:themePrimary]";        
+$themeLighterAlt: "[theme:themeLighterAlt]";     
+$themeLighter: "[theme:themeLighter]";        
+$themeLight: "[theme:themeLight]";          
+$themeTertiary: "[theme:themeTertiary]";       
+$themeSecondary: "[theme:themeSecondary]";      
+$themeDarkAlt: "[theme:themeDarkAlt]";        
+$themeDark: "[theme:themeDark]";           
+$themeDarker: "[theme:themeDarker]";         
+$neutralLighterAlt: "[theme:neutralLighterAlt]";   
+$neutralLighter: "[theme:neutralLighter]";      
+$neutralLight: "[theme:neutralLight]";        
+$neutralQuaternaryAlt: "[theme:neutralQuaternaryAlt]";
+$neutralQuaternary: "[theme:neutralQuaternary]";   
+$neutralTertiaryAlt: "[theme:neutralTertiaryAlt]";  
+$neutralTertiary: "[theme:neutralTertiary]";     
+$neutralSecondary: "[theme:neutralSecondary]";    
+$neutralPrimaryAlt: "[theme:neutralPrimaryAlt]";   
+$neutralPrimary: "[theme:neutralPrimary]";      
+$neutralDark: "[theme:neutralDark]";         
+$black: "[theme:black]";               
+$white: "[theme:white]";  
+$dwTertiary: "[theme: dwTertiary]";     
+$dwGradient1: "[theme:dwGradient1]";         
+$dwGradient2: "[theme:dwGradient2]";
+$dwBorder: "[theme:dwBorder]";            
+$dwError: "[theme:dwError]";             
+$dwSuccess: "[theme:dwSuccess]";           
+$dwWarning: "[theme:dwWarning]";           
+$dwShadow: "[theme:dwShadow]";
+$dwText: "[theme:dwText]";
+$borderRadius: 5px;
+$boxShadow: 0px 3px 3px $dwShadow;
+$gradient: transparent linear-gradient(36deg, $dwGradient2 0%, $dwGradient1 100%) 0% 0% no-repeat padding-box;
+$inverseGradient: transparent linear-gradient(36deg, $dwGradient1 0%, $dwGradient2 100%) 0% 0% no-repeat padding-box;
+
+%customScroll {
+    &::-webkit-scrollbar{width: 5px;height:5px;}
+    &::-webkit-scrollbar-track{background-color:transparent;}
+    &::-webkit-scrollbar-thumb{border-radius: $borderRadius;background: #cecece;}
+    // &::-webkit-scrollbar-thumb:hover {width: 10px;}
+    &::-webkit-scrollbar-thumb:window-inactive{background: #cecece;}
+}
+
+@mixin webpartTitle($header) {
+    
+    @if $header == "h3" {
+        margin-bottom: 26px;
+        &:after {
+            content: "";
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: $dwText;
+            position: relative;
+            top: 6px;
+        }
+    }
+
+    @if $header == "h2" {
+        margin-bottom: 34px;
+        &:after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: $dwText;
+            position: relative;
+            top: 14px;
+        }
+    }
+}

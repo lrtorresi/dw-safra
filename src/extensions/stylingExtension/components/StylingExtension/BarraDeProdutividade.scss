@@ -1,0 +1,456 @@
+@import "../../../../scss/variables";
+
+$panelWidth: 400px;
+
+.newsLikesCallout {
+  overflow: auto;
+  @extend %customScroll;
+  max-height: 100px;
+  padding-right: 5px;
+}
+
+#BarraProdutividade {
+  display: none;
+}
+
+.DWWrapper.DWBarraDeProdutividade {
+  .DWCardList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .DWText {
+    background-color: #5c7a96;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px 30px;
+    .MainText {
+      color: #eceff3;
+      margin-bottom: 14px;
+    }
+    p {
+      color: #eceff3;
+    }
+  }
+  .DWCard {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    width: calc(25% - 4px);
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 2px 2px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: calc(100% - 10px);
+      .image {
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+      }
+      .title {
+        text-align: center;
+        //font-family: $secondaryFont;
+        font-size: 14px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+      }
+    }
+  }
+  .DWContainer.barraLateral {
+    box-shadow: -3px 3px 6px $dwShadow;
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 100;
+    background: white;
+    border-top-left-radius: $borderRadius;
+    border-bottom-left-radius: $borderRadius;
+    overflow: hidden;
+    cursor: pointer;
+
+    @media screen and (min-width: 1025px) {
+      margin-left: -22.5px;
+      width: 45px;
+      .DWItem {
+        i {
+          font-size: 20px;
+          color: $themePrimary;
+        }
+        span {
+          font-size: 20px;
+          color: $themePrimary;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      width: 25px;
+      margin-left: -12.5px;
+      .DWItem {
+        i {
+          font-size: 13px;
+        }
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .DWItem {
+      margin: auto;
+      text-align: center;
+      position: absolute;
+      bottom: -50px;
+      right: 0;
+      width: 28px;
+      background-color: #5c7a96;
+      padding: 10px 5px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      &:hover {
+        width: 48px;
+        opacity: 1;
+      }
+      .DWIconExclamacao,
+      .DWIconHeart {
+        font-size: 20px;
+      }
+      // .DWIconArquivosAbertos {
+      //     font-weight: bold;
+      // }
+      // .DWIconEmail {
+      //     font-weight: bold;
+      // }
+      &:first-child {
+        padding-top: 10px;
+      }
+      i {
+        color: white;
+      }
+    }
+
+    &.open {
+      @media screen and (max-width: 1024px) {
+        z-index: 98;
+      }
+      right: $panelWidth;
+    }
+
+    &.withAnnouncements {
+      .DWItem {
+        &:first-child {
+          background-color: $dwWarning;
+          padding-bottom: 5px;
+          margin-bottom: 10px;
+          i {
+            color: $dwText;
+          }
+          span {
+            color: $dwText;
+          }
+        }
+      }
+    }
+
+    &.withAdmin {
+      .DWItem {
+        &:last-child {
+          display: block;
+          background-color: $themePrimary;
+          padding-top: 10px;
+          padding-bottom: 5px;
+          i {
+            color: white;
+          }
+          span {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .painel {
+    box-shadow: -8px 0px 29px $dwShadow;
+    overflow: scroll;
+    @extend %customScroll;
+    padding: 20px;
+
+    .newBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      margin-top: 20px;
+      a {
+        border: 1px solid #00003C;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-size: 14px;
+        font-family: 'MontserratBold' !important;
+        color: #00003C !important;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    }
+
+    .BarraProdutividadeChildComponent {
+      .hubItemMessageBar {
+        margin-bottom: 20px;
+      }
+
+      h5 {
+        font-family: 'MontserratBold' !important;
+        font-size: 16px;
+      }
+
+      position: relative;
+      h4 {
+        margin-bottom: 10px;
+      }
+
+      padding-bottom: 28px;
+
+      &.DWTeamsComponent {
+        .teamsContainer {
+          flex-wrap: wrap;
+          .teamItem {
+            margin-bottom: 5px;
+          }
+        }
+      }
+
+      &.withCTA {
+        padding-bottom: 30px;
+      }
+
+      &.withCTA.DWTeamsComponent {
+        padding-bottom: 50px;
+      }
+
+      .callToAction {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: 0.2s;
+
+        img {
+          width: 16px;
+          height: 16px;
+        }
+
+        h6 {
+          padding: 0 10px;
+        }
+
+        i,
+        .DWIconSetaDireita {
+          color: black;
+          font-size: 10px;
+        }
+      }
+    }
+
+    position: relative;
+    padding-bottom: 60px;
+    transition: 0.3s;
+    position: fixed;
+    height: 100vh;
+    right: -$panelWidth;
+    width: $panelWidth;
+    background-color: white;
+    z-index: 99;
+
+    .closeIcon {
+      display: none;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 1024px) {
+      padding-top: 55px;
+      $panelWidth: 100%;
+      right: -$panelWidth;
+      width: $panelWidth;
+      .closeIcon {
+        display: block;
+      }
+    }
+
+    &.open {
+      right: 0;
+      top: 0;
+      background-color: #FFFFFF;
+    }
+  }
+}
+
+.DWWrapper#BarraProdutividade2 {
+  .DWContainer.barraLateral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #00003C;
+    height: 120px;
+    width: 28px;
+    overflow: visible;
+    border: none;
+
+    transition: all 0.3s ease;
+    
+  }
+  .barraLateral:hover {
+    width: 48px;
+    .Contributor {
+      margin-right: 46px;
+    }
+  }
+
+  .barraLateral::before {
+    content: "";
+    height: 10px;
+    width: 2px;
+
+    border-radius: 10px;
+
+    background-color: $white;
+
+    margin-right: 4px;
+  }
+  .barraLateral::after {
+    content: "";
+    height: 10px;
+    width: 2px;
+    background-color: $white;
+
+    border-radius: 10px;
+  }
+}
+
+
+.FavoritesCallout#CalloutBarra {
+  padding: 10px;
+  border-radius: 5px;
+  transition: .3s;
+
+  &.hidden {
+      opacity: 0;
+  }
+
+  .ms-TextField-fieldGroup {
+      // Cancelling hover
+      &:hover {
+          border-color: #E9E9E9;
+      }
+  }
+
+  .editText, .viewText {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+          padding-right: 5px;
+      }
+  }
+
+  .editText {
+      cursor: pointer;
+  }
+
+  .viewText > a {
+      text-decoration: none;
+      color: black;
+
+      > i {
+          position: relative;
+          top: 2px;
+      }
+  }
+
+  label {
+      margin-left: 12px;
+  }
+
+  hr {
+      border-color: rgba(0, 0, 0, .06);
+      margin: 15px 0px;
+      padding: 0px 5px;
+  }
+
+  .saveButton {
+      background-color: white;
+      color: $themePrimary;
+      border: 1px solid;
+      border-color: $themePrimary;
+      border-radius: 5px;
+      width: 100%;
+      padding: 5px 0px;
+      cursor: pointer;
+      transition: .3s;
+      &:hover{
+          color: white;
+          background-color: $themePrimary;
+      }
+  }
+
+}    
+
+.DWWrapper.DWCustom.DWBarraDeProdutividade.DWBarraDeProdutividade2.pageHasScroll{
+  .DWContainer.barraLateral:not(.open){
+    right: 17px;
+  }
+}
+
+// ########################################################################################
+// ########################################################################################
+// ########################################################################################
+/* TRECHO TEMPORÁRIO DE REMOÇÃO DAS FOTOS DO DELVE DE TODOS OS COMPONENTES QUE O UTILIZAM*/
+// ########################################################################################
+
+.DWWrapper.DWCustom.DWBarraDeProdutividade.DWBarraDeProdutividade2 .DWContainer.barraLateral .Contributor
+// ,
+// .DWBoasVindas.DWWrapper.DWCustom .DWTop .DWContainer .DWLeft,
+// .DWWrapper.DWCustom.DWAniversariantes > .DWContainer .DWItem .DWUserProfileImage.image,
+// .DWWrapper.DWQuemEQuemPanel .personContainer .personItem .personImage,
+// .DWWrapper.DWMeuDia .DWPageHeader>.DWContainer .gridLeft .imageWrapper,
+// .DWWrapper.DWMeuDia .DWPageHeader>.DWContainer .gridLeft h2,
+// .DWWrapper.DWBannerParaVoce .DWPageHeader>.DWContainer .gridLeft .imageWrapper,
+// .DWWrapper.DWBannerParaVoce .DWPageHeader>.DWContainer .gridLeft h2,
+// .DWWrapper.DWSistemasFavoritos .DWPageHeader .DWContainer .gridLeft .imageWrapper,
+// .DWWrapper.DWSistemasFavoritos .DWPageHeader .DWContainer .gridLeft h2
+{
+  display: NONE !important;
+}
+// .DWWrapper.DWAniversariantes>.DWContainer .DWItem {
+//   padding-top: 50px !important;
+// }
+
+// ########################################################################################
+/* TRECHO TEMPORÁRIO DE REMOÇÃO DAS FOTOS DO DELVE DE TODOS OS COMPONENTES QUE O UTILIZAM*/
+// ########################################################################################
+// ########################################################################################
+// ########################################################################################

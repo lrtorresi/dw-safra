@@ -1,0 +1,165 @@
+
+$branco: #fff;
+$azul-escuro: #00003C;
+$azul-claro: #7495b8;
+$amarelo:#e3b104;
+
+
+.curriculoContainer{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: $branco;
+  width: 265px;
+  border-radius: 5px;
+  align-items: center;
+
+
+  &::before,
+  &::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    left: 25%;
+    background-color: $azul-escuro;
+  }
+  &::after{
+    top: 0;
+  }
+  &::before{
+    bottom: 0;
+  }
+
+  .candidatoCont{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 209px;
+    height: 212px;
+    justify-content: center;
+    margin: 31px auto;
+
+    .photo{
+      border-radius: 50%;
+      border: $amarelo 2px solid;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 75px;
+      height: 75px;
+      padding: 2px;
+
+  
+    }
+
+    .wrapTxt{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h3{
+        min-height: 37px;
+        font-family: "MontserratBold";
+        font-size: 14px;
+        color: #1A1A1A;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 0;
+        line-height: 16px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        line-clamp: 2;
+        overflow: hidden;
+      }
+  
+      h6{
+        max-height: 15px;
+        line-height: 18px;
+
+        // margin-top: 16px;
+        margin-top: 9px;
+        margin-bottom: 16px;
+        color: $amarelo;
+        font-family: "MontserratBold";
+        font-size: 10px !important;
+        font-style: normal;
+        font-weight: bold;
+
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* number of lines to show */
+        line-clamp: 1;
+        overflow-y: hidden;
+      }
+  
+      .line{
+        width: 100%;
+        border: solid 1px #D8D8D8;
+      
+      }
+      a{
+        font-family: "MontserratBold";
+        text-decoration: none;
+        color: $azul-claro;
+        font-size: 14px;
+        display: inline-block;
+        margin-top: 16px;
+      }
+    }
+
+  }
+
+  
+  
+}
+
+
+@media screen and (max-width: 460px) {
+  .curriculoContainer{
+
+    /* margin-inline: 90px; */
+    height: auto !important;
+
+    .candidatoCont{
+      flex-direction: column !important;
+      gap: 10px !important;
+      height: 200px !important;
+      img.photo{
+        width: 85px ;
+        height: 85px ;
+      }
+      .wrapTxt{
+        line-height: 3;
+        display: unset;
+      }
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 1024px) {
+  .curriculoContainer{
+    width: 100%;
+    height: 192px;
+    box-sizing: border-box;
+
+
+    .candidatoCont{
+      flex-direction: row;
+      gap: 35px;
+      width: 85%;
+      justify-content: center;
+      .photo{
+        width: 120px;
+        height: 120px;
+      }
+      .wrapTxt{
+        line-height: 3;
+      }
+    }
+
+  }
+}  

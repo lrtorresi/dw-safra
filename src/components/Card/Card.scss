@@ -1,0 +1,34 @@
+@import "../../scss/variables";
+
+.DWCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 100%;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100% - 10px);
+        .image {
+          height: 25px;
+          width: 25px;
+          display: flex;
+          justify-content: center;
+        }
+        .title {
+          text-align: center;
+          //font-family: $secondaryFont;
+          font-size: 14px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          width: 100%;
+        }
+      }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientSideComponentInstance Title="StylingExtension" Location="ClientSideExtension.ApplicationCustomizer" ComponentId="71505e7f-4ecb-4681-a1db-6e87aa311b17" Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}"/>
+</Elements>

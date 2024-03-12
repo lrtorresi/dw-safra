@@ -1,0 +1,83 @@
+.DWWrapper {
+    .DWEmailsComponent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .emailItem {
+            margin-bottom: 20px;
+            text-decoration: none;
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                > div {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .senderThumbnail {
+                        margin-right: 10px;
+                    }
+                }
+
+                i {
+                    margin-left: 15px;
+                    color: red;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+.DWBarraDeProdutividade {
+    
+
+    .DWEmailsComponent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .emailItem {
+            margin-bottom: 20px;
+            text-decoration: none;
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                > div {
+                    border-radius: 4px;
+                    display: flex;
+                    justify-content: flex-start;
+                    background: #EDEDED;
+                    padding: 20px;
+                    width: 356px;
+                    border-bottom: 3px solid #00003C;
+            
+                    .senderThumbnail {
+                        margin-right: 10px;
+                    }
+                }
+
+                i {
+                    margin-left: 15px;
+                    color: red;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,86 @@
+@import "./../../../extensions/stylingExtension/components/StylingExtension/scss/variables";
+
+.DWWrapper.DWCasesSucesso {
+
+  .DWItem {
+
+    margin-bottom: 30px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  
+    &:nth-child(even) {
+      .DWContent {
+        flex-flow: row-reverse;
+        padding-left: 126px;
+        padding-right: 0;
+  
+        h2 {
+          text-align: right;
+        }
+    
+        img {
+          margin-left: 20px;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .DWContent {
+    display: flex;
+    align-items: center;
+    padding-right: 126px;
+    
+      &:nth-child(even) {
+        flex-flow: row-reverse;
+        padding-left: 126px;
+        padding-right: 0;
+    
+        h2 {
+          text-align: right;
+        }
+    
+        img {
+          margin-left: 20px;
+          margin-right: 0;
+        }
+      }
+    
+  
+    img {
+      margin-right: 20px;
+      border-radius: 50%;
+      height: 95px;
+      width: 95px;
+      border: 2px solid;
+      border-color: $themePrimary;
+      padding: 3px;
+      object-fit: cover;
+    }
+  
+    .texts {
+      h2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: $themePrimary;
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+  
+      h3 {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+        color: #000000;
+        line-height: 1.8;
+        margin: 0;
+        font-family: "MontserratRegular";
+      }
+    }
+  }
+}
+

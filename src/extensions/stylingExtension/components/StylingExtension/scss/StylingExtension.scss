@@ -1,0 +1,1672 @@
+@import "./variables";
+@import "./fonts";
+
+.DWWrapper.DWCustom {
+  @extend %icons;
+  @extend %primaryFontRegular;
+
+  h2,
+  h3,
+  h4 {
+    color: $themePrimary;
+  }
+  h2 {
+    @extend %primaryFontBold;
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+  h3 {
+    @extend %primaryFontBold;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  h4 {
+    @extend %primaryFontBold;
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+  h5 {
+    @extend %primaryFontRegular;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  h6,
+  p {
+    @extend %primaryFontRegular;
+    font-size: 14px;
+    line-height: 21px;
+    color: $neutralPrimary;
+  }
+
+  &.DWBoasVindas {
+    h5 {
+      @extend %primaryFontRegular;
+    }
+    .DWTop {
+      padding: 19px 24px;
+      background: #2a2a5c;
+      .DWContainer {
+        background-color: transparent;
+        .DWLeft {
+          .userPicture {
+            border: 2px solid;
+            border-color: $dwTertiary;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 48px !important;
+            width: 48px !important;
+            min-height: 48px !important;
+            min-width: 48px !important;
+            border-radius: 50%;
+            img {
+              border: 2px solid;
+              border-color: transparent;
+              box-sizing: border-box !important;
+              display: block;
+              height: 42px;
+              width: 42px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+    .DWBottom {
+      .DWFavorites {
+        .DWContainer {
+          .DWSubContainer {
+            .DWItemWrapper {
+              .DWItem {
+                border: 1px solid;
+                border-color: #d8d8d8;
+              }
+            }
+          }
+          .editButton {
+            background: transparent;
+            border: 1px solid;
+            border-color: $themePrimary;
+            i {
+              color: $themePrimary;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWMicrosoft365Hub {
+    h6 {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .verticalGroup {
+      > .DWMicrosoft365HubComponent {
+        padding: 16px 16px 0px 16px;
+        padding-bottom: 0px;
+
+        h4 {
+          margin-bottom: 16px;
+        }
+        h5 {
+          color: $themeTertiary;
+          @extend %primaryFontBold;
+          margin-top: 5px;
+        }
+        .fileItem {
+          margin-bottom: 18px;
+        }
+        .callToAction {
+          border-top: 1px solid;
+          border-color: #d8d8d8;
+          position: relative;
+          padding: 16px;
+          margin: 0 -16px;
+          margin-top: 5px;
+        }
+        &.withCTA {
+          padding-bottom: 0px;
+          &.DWTeamsComponent {
+            padding-bottom: 0px;
+            .callToAction {
+              margin-top: 23px;
+            }
+            .teamsContainer {
+              .teamItem {
+                border: 2px solid;
+                border-color: $dwTertiary;
+                width: 48px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                img {
+                  width: 44px;
+                  height: 44px;
+                  border: 2px solid;
+                  border-color: white;
+                  box-sizing: border-box !important;
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+      }
+      .DWCalendarComponent {
+        .calendarItem {
+          border-color: $themeTertiary;
+
+          &::after {
+            border: 1px solid;
+            border-color: $themeTertiary;
+            background: $themeTertiary;
+            width: 8px;
+            height: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  &.DWQuemEQuem {
+    background: $themePrimary;
+    padding: 40px 32px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    h2 {
+      margin-bottom: 40px;
+      .DWIconLupaQuem {
+        font-size: 27px;
+      }
+    }
+    > form {
+      border-radius: 50px;
+      height: 60px;
+      .search {
+        padding: 16px 25px;
+        font-size: 12px;
+        line-height: 15.6px;
+        @extend %primaryFontBold;
+        &::-webkit-input-placeholder {
+          color: #9e9e9e;
+        }
+        &:-ms-input-placeholder {
+          color: #9e9e9e;
+        }
+        &::placeholder {
+          color: #9e9e9e;
+        }
+      }
+      button {
+        right: 20px;
+        top: 7px;
+        .DWIconBuscar {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  &.DWCalendarioCorporativo {
+    background: $dwTertiary;
+    padding: 32px;
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+    .DWContainer {
+      .DWItem {
+        background: #ededed;
+        border-bottom: 5px solid;
+        border-left: 0;
+        border-color: $themePrimary;
+        .date {
+          h5 {
+            @extend %primaryFontRegular;
+            font-size: 12px;
+            line-height: 18px;
+          }
+        }
+        .details {
+          // position: relative;
+          border-left: 0;
+          background: #ededed;
+          padding: 5px 20px 5px 0px;
+          // &::after {
+          //   position: absolute;
+          //   height: 100%;
+          //   width: 1px;
+          //   background: #d8d8d8;
+          //   left: 0;
+          // }
+          > div {
+            border-left: 1px solid;
+            border-color: #d8d8d8;
+            padding-left: 20px;
+          }
+          h5 {
+            @extend %primaryFontRegular;
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 4px;
+          }
+        }
+      }
+    }
+    .linkButton {
+      .DWIconAdicionar {
+        font-size: 16px;
+        margin-right: 14.4px;
+      }
+      h5 {
+        @extend %primaryFontRegular;
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  &.DWCalendarioCorporativoPanel {
+    > h2 {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &.DWAniversariantes {
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+    > .DWContainer {
+      .DWItem {
+        &:nth-child(2n) {
+          background-color: #ededed;
+        }
+        .DWUserProfileImage {
+          &.image {
+            margin-bottom: 15px;
+            border: 2px solid;
+            border-color: $themeTertiary;
+            width: 48px !important;
+            height: 48px !important;
+            min-width: 48px !important;
+            min-height: 48px !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            img {
+              width: 42px;
+              height: 42px;
+              border: 2px solid;
+              border-color: transparent;
+              box-sizing: border-box !important;
+              display: block;
+              border-radius: 50%;
+            }
+          }
+        }
+        .info {
+          h5 {
+            color: $themeTertiary;
+          }
+        }
+      }
+    }
+    .buttonContainer {
+      .DWIconAdicionar {
+        color: $themePrimary;
+      }
+      h5 {
+        color: $themePrimary;
+      }
+    }
+  }
+
+  &.DWBannerPrincipalInovacao {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    .slick-slider {
+      .slick-arrow {
+        text-shadow: none;
+      }
+    }
+    .slick-dots {
+      li {
+        height: 10px;
+        width: 10px;
+      }
+    }
+    .slick-dots {
+      li {
+        button {
+          height: 10px;
+          width: 10px;
+        }
+      }
+    }
+    .DWItems {
+      border-radius: 5px;
+      .textWrapper {
+        top: 40px;
+        bottom: auto;
+        justify-content: start;
+
+        .text {
+          padding: 0px;
+          margin: 0 31px;
+          max-width: 47%;
+          &::after {
+            display: none;
+          }
+          h2 {
+            color: #09043e;
+            @media screen and (max-width: 768px) {
+              color: #fff;
+            }
+          }
+          h5,
+          h6 {
+            @media screen and (max-width: 768px) {
+              color: #fff;
+            }
+          }
+          h5 {
+            @media screen and (max-width: 768px) {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      img {
+        min-width: 100%;
+      }
+    }
+  }
+
+  &.DWBannerPrincipal {
+    .slick-slider {
+      .slick-arrow {
+        text-shadow: none;
+      }
+    }
+    .slick-dots {
+      li {
+        height: 10px;
+        width: 10px;
+      }
+    }
+    .slick-dots {
+      li {
+        button {
+          height: 10px;
+          width: 10px;
+        }
+      }
+    }
+    .DWItems {
+      .imgWrapper {
+        @media screen and (max-width: 768px) {
+          padding-bottom: 52%;
+        }
+      }
+      .textWrapper {
+        top: 48px;
+        bottom: auto;
+        justify-content: start;
+        @media screen and (max-width: 768px) {
+          top: -3px;
+        }
+
+        .text {
+          padding: 0px;
+          margin: 0 48px;
+          &::after {
+            display: none;
+          }
+          h2 {
+            color: $themePrimary;
+            @media screen and (max-width: 768px) {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWBannerSecundario {
+    .DWItems {
+      width: calc(49.4% - 5px);
+      padding-bottom: calc(49.4% - 5px);
+      .text {
+        bottom: auto;
+        top: 0;
+        max-width: 90%;
+        padding: 30px 15px 30px 30px;
+        background: none;
+        h2 {
+          text-transform: none;
+          color: $themePrimary;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  &.DWBannerSecundarioInovacao {
+    .DWItems {
+      width: calc(49.4% - 5px);
+      padding-bottom: calc(71.9% - 5px);
+      box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 3px;
+      .text {
+        bottom: auto;
+        top: 0;
+        max-width: 90%;
+        padding: 30px 15px 30px 30px;
+        background: none;
+        h2 {
+          text-transform: none;
+          color: $themePrimary;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  &.DWUltimasNoticias {
+    .DWContainer {
+      .DWItem {
+        .DWContent {
+          .DWContentRight {
+            .DWTop {
+              .category {
+                font-size: 12px;
+                line-height: 18px;
+              }
+              .title {
+                font-size: 16px;
+                line-height: 20.8px;
+              }
+              .description {
+                opacity: 1;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                overflow: hidden;
+              }
+            }
+            .DWBottom {
+              border-top: 1px solid;
+              border-color: #d8d8d8;
+              padding-top: 7px;
+              margin-top: 12px;
+              .publishDate {
+                font-size: 12px;
+              }
+              .icons {
+                h5 {
+                  font-size: 12px;
+                  i {
+                    color: $neutralPrimary;
+                  }
+                  .likeButton {
+                    color: $neutralPrimary;
+                  }
+                  span {
+                    color: $neutralPrimary;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWNoticiasEmDestaque {
+    .DWContainer {
+      .DWLeft {
+        .DWContentRight {
+          .DWTop {
+            .category {
+              font-size: 12px;
+              line-height: 18px;
+            }
+            .description {
+              display: none;
+            }
+          }
+        }
+      }
+      .DWRight {
+        .DWItem {
+          .DWContent {
+            padding-bottom: 0;
+            margin-bottom: 30px;
+            .DWContentRight {
+              .DWTop {
+                .category {
+                  font-size: 12px;
+                  line-height: 18px;
+                }
+                .title {
+                  font-size: 16px;
+                  line-height: 20.8px;
+                }
+                .description {
+                  opacity: 1;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 3;
+                  -webkit-box-orient: vertical;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                }
+              }
+            }
+          }
+          &:last-child {
+            .DWContent {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWTodasAsNoticias {
+    .DWContainer {
+      .DWHeader {
+        h3 {
+          &::after {
+            display: none;
+          }
+        }
+        .DWRight {
+          .searchBox {
+            border: 1px solid;
+            border-color: #d8d8d8;
+            i {
+              font-weight: bold;
+              -moz-transform: scaleX(-1);
+              -o-transform: scaleX(-1);
+              -webkit-transform: scaleX(-1);
+              transform: scaleX(-1);
+              font-size: 15px;
+            }
+            > input {
+              padding: 8px 8px;
+              font-size: 12px;
+              @extend %primaryFontBold;
+              color: $neutralPrimary;
+              &::-webkit-input-placeholder {
+                color: $neutralPrimary;
+              }
+              &:-ms-input-placeholder {
+                color: $neutralPrimary;
+              }
+              &::placeholder {
+                color: $neutralPrimary;
+              }
+            }
+          }
+          .selectBox {
+            > div {
+              box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.16);
+              border: 1px solid;
+              border-color: #d8d8d8;
+            }
+            input {
+              font-size: 12px;
+              @extend %primaryFontBold;
+              color: $themePrimary;
+              &::-webkit-input-placeholder {
+                color: $themePrimary;
+              }
+              &:-ms-input-placeholder {
+                color: $themePrimary;
+              }
+              &::placeholder {
+                color: $themePrimary;
+              }
+            }
+            button {
+              i {
+                color: $themePrimary;
+                font-weight: bold;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+      .DWItem {
+        .DWContent {
+          .DWContentRight {
+            .DWTop {
+              .title {
+                font-size: 16px;
+                line-height: 20.8px;
+                margin-bottom: 4px;
+              }
+              .description {
+                opacity: 1;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                overflow: hidden;
+              }
+              .publishDate {
+                font-size: 12px;
+                line-height: 18px;
+              }
+            }
+            .DWBottom {
+              .icons {
+                h5 {
+                  font-size: 12px;
+                  span {
+                    color: $neutralPrimary !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWNoticiasMaisLidas {
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+    .DWContainer {
+      .DWItem {
+        .DWContent {
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          .DWContentLeft {
+            .count {
+              background: $dwTertiary;
+              height: 40px;
+              width: 40px;
+            }
+          }
+          .DWContentRight {
+            .DWTop {
+              .title {
+                font-size: 16px;
+                line-height: 20.8px;
+              }
+            }
+            .DWBottom {
+              .icons {
+                h5 {
+                  span {
+                    color: $neutralPrimary !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWNoticiasRelacionadas {
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+    .DWContainer {
+      .DWItem {
+        .DWContent {
+          .DWContentRight {
+            .DWTop {
+              .title {
+                font-size: 16px;
+                line-height: 20.8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWInovacao {
+    background: unset;
+    padding: 0;
+
+    h3 {
+      color: $themePrimary;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .DWContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .DWItem {
+        width: calc(20% - 13px);
+        margin-right: 16px;
+        padding-bottom: 16px;
+        &:nth-child(odd) {
+          padding-right: unset;
+        }
+
+        @media screen and (max-width: 460px) {
+          width: calc(100% / 2 - 10px / 2);
+          margin-right: 10px;
+
+          &:nth-child(2n) {
+            margin-right: 0px;
+          }
+        }
+
+        @media screen and (min-width: 461px) and (max-width: 660px) {
+          width: calc(100% / 3 - 20px / 3);
+          margin-right: 10px;
+
+          &:nth-child(3n) {
+            margin-right: 0px;
+          }
+        }
+
+        @media screen and (min-width: 661px) {
+          width: calc(20% - 13px);
+          margin-right: 16px;
+
+          &:nth-child(5n) {
+            margin-right: 0px;
+          }
+        }
+
+        .DWContent {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 20px 10px;
+          text-align: center;
+          background-color: $white;
+          border-radius: 3px;
+          padding: 10px;
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          h5 {
+            color: $dwText;
+            font-size: 12px;
+            line-height: 150%;
+          }
+        }
+      }
+    }
+  }
+
+  &.DWLinksRapidos {
+    background: unset;
+    padding: 0;
+
+    h3 {
+      color: $themePrimary;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .DWContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .DWItem {
+        width: calc(20% - 13px);
+        margin-right: 16px;
+        padding-bottom: 16px;
+        &:nth-child(odd) {
+          padding-right: unset;
+        }
+
+        @media screen and (max-width: 460px) {
+          width: calc(100% / 2 - 10px / 2);
+          margin-right: 10px;
+
+          &:nth-child(2n) {
+            margin-right: 0px;
+          }
+        }
+
+        @media screen and (min-width: 461px) and (max-width: 660px) {
+          width: calc(100% / 3 - 20px / 3);
+          margin-right: 10px;
+
+          &:nth-child(3n) {
+            margin-right: 0px;
+          }
+        }
+
+        @media screen and (min-width: 661px) {
+          width: calc(20% - 13px);
+          margin-right: 16px;
+
+          &:nth-child(5n) {
+            margin-right: 0px;
+          }
+        }
+
+        .DWContent {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 20px 10px;
+          text-align: center;
+          background-color: $white;
+          border-radius: $borderRadius;
+          padding: 10px;
+          min-height: 130px;
+          box-shadow: 0px 3px 3px $dwShadow;
+
+          img {
+            background: $themePrimary;
+            margin-right: 0;
+            padding: 5px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+          }
+          h5 {
+            color: $dwText;
+            font-size: 12px;
+            line-height: 150%;
+          }
+        }
+      }
+    }
+  }
+
+  &.DWGaleriaDeImagensPreview {
+    padding: 32px;
+    background: $dwTertiary;
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &.DWVideosPreview {
+    padding: 32px;
+    background: $dwTertiary;
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &.DWMeuDia {
+    .DWPageHeader {
+      > .DWContainer {
+        .gridLeft {
+          h2 {
+            margin: 16px 0 0;
+            font-size: 20px;
+            line-height: 130%;
+          }
+          .imageWrapper {
+            a {
+              &::before {
+                display: none;
+              }
+            }
+            .thumbnailImg {
+              img {
+                border: none;
+              }
+            }
+          }
+        }
+        .gridRight {
+          h3 {
+            color: white;
+            font-size: 20px;
+            line-height: 130%;
+          }
+          .DWContainer {
+            .DWItem {
+              align-items: flex-start;
+              .DWContent {
+                align-items: flex-start;
+                .DWLeft {
+                  border: 0;
+                  padding-right: 0;
+                  margin-right: 0;
+                  .badge {
+                    color: $neutralPrimary;
+                    @extend %primaryFontRegular;
+                    font-size: 14px;
+                    line-height: 150%;
+                  }
+                }
+                .DWRight {
+                  padding-left: 10px;
+                  margin-left: 10px;
+                  border-left: 1px solid;
+                  border-color: #e9e9e9;
+                  .subtitle {
+                    color: $neutralPrimary;
+                    font-size: 12px;
+                    line-height: 150%;
+                  }
+                  .title {
+                    color: $themeTertiary;
+                    font-size: 14px;
+                    line-height: 130%;
+                    margin-top: 8px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWAcessosRapidos {
+    .DWContainer {
+      .DWItem {
+        .circle {
+          img {
+            max-width: 48px;
+          }
+        }
+      }
+    }
+  }
+
+  &.DWFavoritos {
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+    .DWFavorites {
+      .DWContainer {
+        .DWSubContainer {
+          .DWItemWrapper {
+            background: white;
+          }
+        }
+        .editButton {
+          i {
+            font-weight: bold;
+            color: $themePrimary;
+            background: white;
+            border: 1px solid;
+            border-color: $themePrimary;
+          }
+        }
+      }
+    }
+  }
+
+  &.DWProdutosDisponiveis {
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+    .DWContainer {
+      .DWItem {
+        padding: 16px;
+        margin-bottom: 16px;
+        .linkRapido {
+          h5 {
+            font-size: 16px;
+            line-height: 130%;
+            @extend %primaryFontBold;
+            color: $themePrimary;
+          }
+          img {
+            width: 24px;
+          }
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &.DWMeuEspacoDeTrabalho {
+    h3 {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &.DWMeuEspacoDeTrabalho {
+    .DWWrapper {
+      &.DWMeusEmails {
+        .DWDataWrapperComponent {
+          h3 {
+            font-size: 16px;
+            line-height: 130%;
+            color: $themePrimary;
+          }
+          .DWContent {
+            h5 {
+              color: $themeTertiary;
+              @extend %primaryFontBold;
+              margin-top: 8px;
+              margin-bottom: 8px;
+            }
+            h6 {
+              font-size: 12px;
+              line-height: 150%;
+            }
+          }
+        }
+      }
+      &.DWMeusCompromissos {
+        .DWDataWrapperComponent {
+          h3 {
+            font-size: 16px;
+            line-height: 130%;
+            color: $themePrimary;
+          }
+          .DWContent {
+            h5 {
+              color: $themeTertiary;
+              @extend %primaryFontBold;
+            }
+            h6 {
+              font-size: 12px;
+              line-height: 150%;
+            }
+          }
+        }
+      }
+      &.DWMeusDocumentos {
+        .DWDataWrapperComponent {
+          h3 {
+            font-size: 16px;
+            line-height: 130%;
+            color: $themePrimary;
+          }
+          .DWItem {
+            .DWContainer {
+              span {
+                @extend %primaryFontRegular;
+                font-size: 12px;
+                line-height: 150%;
+                color: $neutralPrimary;
+              }
+              h4 {
+                font-size: 16px;
+                line-height: 130%;
+                color: $themePrimary;
+              }
+              h6 {
+                font-size: 12px;
+                line-height: 150%;
+              }
+            }
+          }
+        }
+      }
+      &.DWMinhasTarefas {
+        .DWDataWrapperComponent {
+          h3 {
+            font-size: 16px;
+            line-height: 130%;
+            color: $themePrimary;
+          }
+          .DWContainer {
+            .DWItem {
+              .DWContent {
+                padding-bottom: 16px;
+                h6 {
+                  padding: 16px 16px 0;
+                }
+              }
+              span {
+                @extend %primaryFontRegular;
+                font-size: 12px;
+                line-height: 150%;
+                color: $neutralPrimary;
+              }
+              .dates {
+                padding: 16px;
+                .date {
+                  h5 {
+                    > span {
+                      margin-bottom: 4px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.DWMinhasEquipes {
+        .DWDataWrapperComponent {
+          h3 {
+            font-size: 16px;
+            line-height: 130%;
+            color: $themePrimary;
+          }
+          .DWContainer {
+            .DWItem {
+              .DWContent {
+                .DWHeader {
+                  font-size: 16px;
+                  line-height: 130%;
+                  color: $themePrimary;
+
+                  @extend %primaryFontBold;
+                  padding: 16px;
+                }
+                .members {
+                  h6 {
+                    font-size: 12px;
+                    line-height: 150%;
+                    margin-bottom: 4px;
+                  }
+                }
+                .general {
+                  h6 {
+                    font-size: 12px;
+                    line-height: 150%;
+                  }
+                  .messages {
+                    margin-top: 20px;
+                    .message {
+                      .right {
+                        padding: 8px;
+                      }
+                    }
+                  }
+                  .body {
+                    @extend %primaryFontRegular;
+                    font-size: 12px;
+                    line-height: 150%;
+                  }
+                }
+                .channels {
+                  .channel {
+                    padding: 16px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.DWPessoasAoRedor {
+        .DWDataWrapperComponent {
+          h3 {
+            font-size: 16px;
+            line-height: 130%;
+            color: $themePrimary;
+          }
+          .DWContainer {
+            .DWItem {
+              .DWContent {
+                h5 {
+                  font-size: 12px;
+                  line-height: 150%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWBannerParaVoce {
+    .DWPageHeader {
+      > .DWContainer {
+        .gridLeft {
+          .imageWrapper {
+            a {
+              &::before {
+                display: none;
+              }
+            }
+            .thumbnailImg {
+              img {
+                border: none;
+              }
+            }
+          }
+          h2 {
+            margin: 16px 0 0;
+          }
+        }
+        .gridRight {
+          .DWItems {
+            .DWContent {
+              .info {
+                .text {
+                  h3 {
+                    margin-bottom: 4px;
+                    &::after {
+                      display: none;
+                    }
+                  }
+                  .description {
+                    font-size: 14px;
+                    line-height: 21px;
+                  }
+                  .link {
+                    color: $themeTertiary;
+                    margin-top: 8px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWMinhasInformacoes {
+    border-color: $themeTertiary;
+    h3 {
+      font-size: 16px;
+      line-height: 20.8px;
+    }
+    .DWContainer {
+      .info {
+        padding: 25px 0;
+        h4 {
+          font-size: 16px;
+          line-height: 20.8px;
+          color: $themePrimary;
+        }
+        span {
+          @extend %primaryFontRegular;
+        }
+      }
+    }
+  }
+
+  &.DWDestaques {
+    .DWContainer {
+      .DWItem {
+        a {
+          background: $themePrimary;
+          height: auto;
+          padding: 8px 11px;
+        }
+      }
+    }
+  }
+
+  &.DWAcessosRapidos {
+    .DWContainer {
+      .DWItem {
+        border: 0;
+        padding: 16px;
+        &::before {
+          bottom: 0;
+          top: auto;
+          background: $themePrimary;
+        }
+        .linkRapido {
+          .texts {
+            h4 {
+              color: $themePrimary;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWBeneficios {
+    .DWZoneFilter {
+      .DWLeft {
+        h3 {
+          &::after {
+            display: none;
+          }
+        }
+      }
+      .DWRight {
+        .searchBox {
+          i {
+            font-weight: bold;
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+          }
+          > input {
+            padding: 8px 8px;
+            font-size: 12px;
+            @extend %primaryFontBold;
+            color: $themePrimary;
+            &::-webkit-input-placeholder {
+              color: $themePrimary;
+            }
+            &:-ms-input-placeholder {
+              color: $themePrimary;
+            }
+            &::placeholder {
+              color: $themePrimary;
+            }
+          }
+        }
+        .selectBox {
+          > div {
+            box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.16);
+          }
+          input {
+            font-size: 12px;
+            @extend %primaryFontBold;
+            color: $themePrimary;
+            &::-webkit-input-placeholder {
+              color: $themePrimary;
+            }
+            &:-ms-input-placeholder {
+              color: $themePrimary;
+            }
+            &::placeholder {
+              color: $themePrimary;
+            }
+          }
+          button {
+            i {
+              color: $themePrimary;
+              font-weight: bold;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .DWContainer {
+      .DWItem {
+        .DWContent {
+          padding: 16px;
+          border: 0;
+          &::before {
+            bottom: 0;
+            top: auto;
+            background: $themePrimary;
+          }
+          .texts {
+            h4 {
+              color: $themePrimary;
+            }
+            h5 {
+              color: $themeTertiary;
+              position: relative;
+              &::before {
+                content: "";
+                width: 12px;
+                height: 10px;
+                left: 30px;
+                position: absolute;
+                display: block;
+                background: url(./img/arrow-left.svg);
+                top: 5px;
+              }
+            }
+            h6 {
+              font-size: 12px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWBeneficiosPanel {
+    h2 {
+      &::after {
+        display: none;
+      }
+    }
+    .DWZoneTitle {
+      h4 {
+        color: $themePrimary;
+      }
+      h6 {
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  &.DWSistemasFavoritos {
+    .DWPageHeader {
+      .DWContainer {
+        .gridLeft {
+          .imageWrapper {
+            a {
+              &::before {
+                display: none;
+              }
+            }
+            .thumbnailImg {
+              img {
+                border: none;
+              }
+            }
+            h2 {
+              margin: 16px 0 0;
+              font-size: 20px;
+              line-height: 130%;
+            }
+          }
+        }
+        .gridRight {
+          h3 {
+            color: white;
+          }
+          .DWItem {
+            height: 187px;
+            &::before {
+              display: none;
+            }
+            &::after {
+              display: none;
+            }
+            .DWContent {
+              padding: 16px;
+              .DWTop {
+                padding-bottom: 16px;
+                margin-bottom: 16px;
+                .DWLeft {
+                  .icon {
+                    border: 0;
+                  }
+                }
+                .DWRight {
+                  .category {
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-bottom: 4px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.DWSistemas {
+    .DWPanel {
+      h2 {
+        font-size: 20px;
+        line-height: 26px;
+        &::after {
+          display: none;
+          background: #ededed;
+        }
+      }
+      .DWPanelHeader {
+        .DWLeft {
+          .icon {
+            box-shadow: none;
+            > div {
+              width: 30px;
+            }
+          }
+        }
+        .DWRight {
+          .title {
+            margin-bottom: 16px;
+          }
+          .access {
+            padding: 10px 25px;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+    .DWHeader {
+      .DWLeft {
+        h3 {
+          &::after {
+            display: none;
+          }
+        }
+      }
+      .DWRight {
+        .searchBox {
+          i {
+            font-weight: bold;
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+          }
+          > input {
+            padding: 8px 8px;
+            font-size: 12px;
+            @extend %primaryFontBold;
+            color: $neutralPrimary;
+            &::-webkit-input-placeholder {
+              color: $neutralPrimary;
+            }
+            &:-ms-input-placeholder {
+              color: $neutralPrimary;
+            }
+            &::placeholder {
+              color: $neutralPrimary;
+            }
+          }
+        }
+        .selectBox {
+          > div {
+            box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.16);
+          }
+          input {
+            font-size: 12px;
+            @extend %primaryFontBold;
+            color: $themePrimary;
+            &::-webkit-input-placeholder {
+              color: $themePrimary;
+            }
+            &:-ms-input-placeholder {
+              color: $themePrimary;
+            }
+            &::placeholder {
+              color: $themePrimary;
+            }
+          }
+          button {
+            i {
+              color: $themePrimary;
+              font-weight: bold;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+    .DWContainer {
+      .DWItem {
+        width: calc(16.66667% - 26.7px);
+        margin-right: 32px;
+        margin-bottom: 32px;
+        &:nth-child(6n) {
+          margin-right: 0;
+        }
+        .DWContent {
+          background: white;
+          border: 0;
+          &::before {
+            bottom: 0;
+            top: auto;
+            background: $themePrimary;
+          }
+          .DWTop {
+            padding: 16px;
+            .icon {
+              background: #ededed;
+              box-shadow: none;
+              margin-bottom: 8px;
+            }
+          }
+          .DWBottom {
+            .buttons {
+              .view {
+                color: $themeTertiary;
+                padding: 10px 0 15px 0;
+                @extend %primaryFontBold;
+              }
+              .access {
+                color: $themeTertiary;
+                padding: 10px 0 15px 0;
+                @extend %primaryFontBold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.DWCasesSucesso {
+    .DWContent {
+      .texts {
+        h3 {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+  .DWAppointmentComponent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .titleContainer {
+      display: flex;
+      gap: 10px;
+    }
+    .icon {
+      width: 19px;
+      height: 19px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px;
+      color: white;
+      background-color: #5c7a96;
+      border-radius: 100%;
+      position: relative;
+      cursor: pointer;
+
+      .tooltip {
+        position: absolute;
+        top: -45px;
+        left: 0;
+        transform: translate(-50%, 0);
+        margin-left: 10px;
+        color: #333333;
+        font-size: 10px;
+        border-radius: 8px;
+        padding: 8px;
+        background-color: #f9f9f9;
+        opacity: 0;
+        transition: all 0.3s;
+        width: 150px;
+        pointer-events: none;
+
+        &::after,
+        &::before {
+          left: 50%;
+          top: 100%;
+          border: solid transparent;
+          content: " ";
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none;
+        }
+        &::before {
+          border-color: rgba(194, 225, 245, 0);
+          border-top-color: #f9f9f9;
+          border-width: 5px;
+          margin-left: -5px;
+        }
+      }
+
+      &:hover {
+        .tooltip {
+          opacity: 1;
+        }
+      }
+    }
+
+    .taskItem {
+      text-decoration: none;
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        h5 {
+          color: #333;
+          padding: 5px 0;
+        }
+
+        h6 {
+          color: #333;
+          font-weight: 500;
+        }
+        > div {
+            border-radius: 4px;
+          display: flex;
+          justify-content: flex-start;
+          background: #EDEDED;
+          padding: 20px;
+          width: 356px;
+          border-bottom: 3px solid #00003C;
+        }
+      }
+
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        margin-top: 3px;
+      }
+    }
+  }
